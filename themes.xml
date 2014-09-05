@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<themes root-folder="resources/themes">
+  <emerald display-name="Emerald" system="true">
+    <file>globalEmerald.css</file>
+    <file>mantleEmerald.css</file>
+    <file>bootstrap/css/bootstrap-namespaced.css</file>
+  </emerald>
+</themes>

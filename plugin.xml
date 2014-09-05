@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin name="pentaho-emerald-theme" title="Emerald Theme">
+
+  <static-paths>
+    <!-- this translates to /pentaho/content/common-ui/resources/* -->
+    <static-path url="/pentaho-emerald-theme/resources" localFolder="resources"/>
+  </static-paths>
+
+</plugin>
