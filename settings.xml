@@ -4,5 +4,5 @@
     <cache-messages>true</cache-messages>
     <!-- how far ahead to set the browser's cache -->
     <max-age>2628001</max-age>
-    <cache>false</cache>
+    <cache>true</cache>
 </settings>
