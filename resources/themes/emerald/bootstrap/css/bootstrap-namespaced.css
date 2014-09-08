@@ -622,7 +622,7 @@
   margin: 0 0 20px 0;
  font-family: OpenSansLight, Helvetica, Arial, Sans serif;
   line-height: 20px;
-  color: #19bc73;
+  color: #5d6672;
   text-rendering: optimizelegibility;
   font-weight: normal;
 }
@@ -2594,7 +2594,7 @@
   padding: 19px;
   background: transparent;
   /*margin-bottom: 20px;
-  border: 1px solid #c1e1d7;
+  border: 1px solid #cfcfcf;
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
   border-radius: 0px;
@@ -3594,10 +3594,10 @@ color: #29443b;
   line-height: 14px; */
 }
 .bootstrap .nav-tabs {
-  border-top: 1px solid #c1e1d7;
-  border-bottom: 1px solid #c1e1d7;
-  border-left: 1px solid #c1e1d7;
-  border-right: 1px solid #c1e1d7;
+  border-top: 1px solid #cfcfcf;
+  border-bottom: 1px solid #cfcfcf;
+  border-left: 1px solid #cfcfcf;
+  border-right: 1px solid #cfcfcf;
 }
 .bootstrap #recentsContianer .nav-tabs,
 .bootstrap #favoritesContianer  .nav-tabs {
@@ -3614,9 +3614,9 @@ color: #29443b;
   -moz-border-radius: 0px 4px 0 0;
   border-radius: 0px 0px 0 0;
   border-top: 4px solid transparent;
-  border-bottom: 0px solid #c1e1d7;
+  border-bottom: 0px solid #cfcfcf;
   border-left: 0px solid transparent;
-  border-right: 1px solid #c1e1d7;
+  border-right: 1px solid #cfcfcf;
 }
 .bootstrap #getting-started .nav-tabs > li > a,
 .bootstrap #launch-widget .nav-tabs > li > a {
@@ -3631,9 +3631,9 @@ padding-left: 20px;
 .bootstrap #getting-started .nav-tabs > li > a:hover,
 .bootstrap #getting-started .nav-tabs > li > a:focus {
   border-top: 4px solid transparent;
-  border-bottom: 1px solid #c1e1d7;
-  border-left: 0px solid #c1e1d7;
-  border-right: 1px solid #c1e1d7;
+  border-bottom: 1px solid #cfcfcf;
+  border-left: 0px solid #cfcfcf;
+  border-right: 1px solid #cfcfcf;
   background-color: #dcede7;
   transition: all 300ms;
   -moz-transition: all 300ms;
@@ -3651,9 +3651,9 @@ padding-left: 20px;
 .bootstrap #favoritesContianer .nav-tabs > li > a:hover,
 .bootstrap  #favoritesContianer.nav-tabs > li > a:focus {
   border-top: 4px solid transparent;
-  border-bottom: 1px solid #c1e1d7;
-  border-left: 0px solid #c1e1d7;
-  border-right: 0px solid #c1e1d7;
+  border-bottom: 1px solid #cfcfcf;
+  border-left: 0px solid #cfcfcf;
+  border-right: 0px solid #cfcfcf;
   transition: all 300ms;
   -moz-transition: all 300ms;
   -webkit-transition: all 300ms;
@@ -3667,8 +3667,8 @@ padding-left: 20px;
   background-color: #ffffff;
   border-top: 4px solid #f217ce;
   border-bottom: 1px solid transparent;
-  border-left: 0px solid #c1e1d7;
-  border-right: 1px solid #c1e1d7;
+  border-left: 0px solid #cfcfcf;
+  border-right: 1px solid #cfcfcf;
   transition: all 300ms;
   -moz-transition: all 300ms;
   -webkit-transition: all 300ms;
@@ -3711,24 +3711,24 @@ padding-left: 20px;
 }
 .bootstrap #recentsContianer .widget-panel.well .content-panel,
 .bootstrap #favoritesContianer  .widget-panel.well .content-panel{
-  border: 1px solid #c1e1d7;
+  border: 1px solid rgb(207, 207, 207);
     -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0;
 }
 .bootstrap #recentsContianer .nav-tabs.nav-stacked > li > a ,
 .bootstrap #favoritesContianer  .nav-tabs.nav-stacked > li > a {
-  border-bottom: 1px solid #c1e1d7;
-   border-top: 0px solid #c1e1d7;
-    border-right: 0px solid #c1e1d7;
-	 border-left: 0px solid #c1e1d7;
+  border-bottom: 1px solid #cfcfcf;
+   border-top: 0px solid #cfcfcf;
+    border-right: 0px solid #cfcfcf;
+	 border-left: 0px solid #cfcfcf;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0;
 }
 .bootstrap #recentsContianer .nav-tabs.nav-stacked > li:last-child > a ,
 .bootstrap #favoritesContianer  .nav-tabs.nav-stacked > li:last-child  > a {
-  /*border-bottom: 0px solid #c1e1d7;*/
+  /*border-bottom: 0px solid #cfcfcf;*/
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0;
@@ -3740,7 +3740,7 @@ padding-left: 20px;
 }
 
 .bootstrap .nav-tabs {
-  border-bottom: 1px solid #c1e1d7;
+  border-bottom: 1px solid #cfcfcf;
 background: rgb(255,255,255); /* Old browsers */
 background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%); /* FF3.6+ */
 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(248,248,248,1))); /* Chrome,Safari4+ */
@@ -3853,9 +3853,9 @@ background: #fff;
 .bootstrap .tab-content {
   overflow: auto;
   background-color: #fff;
-  border-right: 1px solid #c1e1d7;
-  border-left: 1px solid #c1e1d7;
-  border-bottom: 1px solid #c1e1d7;
+  border-right: 1px solid #cfcfcf;
+  border-left: 1px solid #cfcfcf;
+  border-bottom: 1px solid #cfcfcf;
   padding: 0;
   height: 300px;
 }

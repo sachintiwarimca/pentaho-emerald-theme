@@ -157,20 +157,12 @@ input, input[type="password"]{
 }
 
 .pentaho-page-background {
-  background: url('images/bg_page.png') repeat-x top left;
-  background-color: #FFF;
+  background-color: #e9e9e9;
 }
 #pucHeader {
   display: block;
   height: 60px;
-  background: #d8ede4; /* Old browsers */
-  background: -moz-linear-gradient(top,  #d8ede4 0%, #c3e4d5 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d8ede4), color-stop(100%,#c3e4d5)); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top,  #d8ede4 0%,#c3e4d5 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top,  #d8ede4 0%,#c3e4d5 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(top,  #d8ede4 0%,#c3e4d5 100%); /* IE10+ */
-  background: linear-gradient(to bottom,  #d8ede4 0%,#c3e4d5 100%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d8ede4', endColorstr='#c3e4d5',GradientType=0 ); /* IE6-9 */
+  background: #d3d3d3;
   -webkit-box-shadow: 0px 2px 3px rgba(50, 50, 50, 0.4);
   -moz-box-shadow:    0px 2px 3px rgba(50, 50, 50, 0.4);
   box-shadow:         0px 2px 3px rgba(50, 50, 50, 0.4);
@@ -180,27 +172,21 @@ input, input[type="password"]{
   /* Standard button style. Should be applied to a <button> element to get full pseudo-styles. */
 .pentaho-button,
 .IE .pentaho-button:active {
-  background: #009772; /* Old browsers */
-  background: -moz-linear-gradient(top,  #009772 57%, #007d5f 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(57%,#009772), color-stop(100%,#007d5f)); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top,  #009772 57%,#007d5f 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top,  #009772 57%,#007d5f 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(top,  #009772 57%,#007d5f 100%); /* IE10+ */
-  background: linear-gradient(to bottom,  #009772 57%,#007d5f 100%); /* W3C */
-  font-size: 15px;
-  color: #ffffff;
-  padding: 4px 14px 6px 14px;
-  font-family: opensanslight,  Helvetica, Arial, Sans serif;
+  background: #3BA749;
+  font-size: 12px;
+  color: #fefefe;
+  padding: 6px 12px;
+  font-family: OpenSansRegular,  Helvetica, Arial, Sans serif;
   /* Standard form */
-  border-radius: 3px;
+  border-radius: 4px;
   /* Firefox */
-  -moz-border-radius: 3px;
+  -moz-border-radius: 4px;
   /* Safari/Chrome */
-  -webkit-border-radius: 3px;
-  border: 0px solid #333;
-  -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.3);
-  -moz-box-shadow:    0px 2px 2px 0px rgba(0, 0, 0, 0.3);
-  box-shadow:         0px 2px 2px 0px rgba(0, 0, 0, 0.3);
+  -webkit-border-radius: 4px;
+  border: 0;
+  box-shadow: 0 0 5px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0 0 5px rgba(0,0,0,0.3);
+  -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.3);
   white-space: nowrap;
   /*text-shadow: 0px 0px 2px rgba(000, 000, 000, 1);*/
   cursor: pointer;
@@ -209,26 +195,23 @@ input, input[type="password"]{
 }
 
   /* Applies the green glow to buttons */
-.pentaho-button:hover {
-  -moz-box-shadow:    inset 0 0 1px #FFF;
-  -webkit-box-shadow: inset 0 0 1px #FFF;
-  box-shadow:         inset 0 0 1px #FFF;
-  background: #00b085; /* Old browsers */
-
-}
-
-  /* Just lightening it up a bit */
+.pentaho-button:hover,
 .pentaho-button:active,
 .IE .pentaho-button:focus {
-  background: #8a6ec0; /* Old browsers */
-  background: -moz-linear-gradient(top,  #8a6ec0 0%, #623dab 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#8a6ec0), color-stop(100%,#623dab)); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top,  #8a6ec0 0%,#623dab 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top,  #8a6ec0 0%,#623dab 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(top,  #8a6ec0 0%,#623dab 100%); /* IE10+ */
-  background: linear-gradient(to bottom,  #8a6ec0 0%,#623dab 100%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8a6ec0', endColorstr='#623dab',GradientType=0 ); /* IE6-9 */
-  color: #29443b;
+  color: #fff;
+  background-image: linear-gradient(bottom, #3BA749 49%, #42ba51 88%);
+  background-image: -o-linear-gradient(bottom, #3BA749 49%, #42ba51 88%);
+  background-image: -moz-linear-gradient(bottom, #3BA749 49%, #42ba51 88%);
+  background-image: -webkit-linear-gradient(bottom, #3BA749 49%, #42ba51 88%);
+  background-image: -ms-linear-gradient(bottom, #3BA749 49%, #42ba51 88%);
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.49, #3BA749), color-stop(0.88, #42ba51));
+  outline: 0;
+}
+
+.pentaho-button:hover:active {
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  -moz-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
 }
 
 .dijitButton .pentaho-button {
@@ -639,7 +622,7 @@ div#FilterPanel div.pentaho-toggle-button-down button{
   /* Make sure to update .modal-backdrop style in bootstrap-namespaced.css with the changes below */
 
   position: absolute;
-  background-color: #14644b; /*#80ab9e;*/
+  background-color: #d3d3d3; /*#80ab9e;*/
   /* IE8 css hack for opacity */
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=80)";
   filter: alpha(opacity = 80);
@@ -2580,7 +2563,7 @@ padding: 10px 0 10px 0;
 }
 .spinner div > div {
   /* spin.js uses inline styles, so we have to override those with !important to acheive theme-ability*/
-  background-color: #05AB60 !important;
+  background-color: #39a74a !important;
 }
 
 .large-spinner {
@@ -2617,18 +2600,18 @@ padding: 10px 0 10px 0;
   margin: auto;
   z-index: 20001;
   height: auto;
-  border: 1px solid #ABD9C9;
-  background: #cbe8dd;
+  border: 1px solid #cfcfcf;
+  background: #ffffff;
 }
 .waitPopup_title {
-  color: #05AB60;
+  color: #39a74a;
   font-size: 18px;
   padding-bottom: 3px;
   width: 262px;
 }
 
 .waitPopup_msg {
-  color: #6F7B77;
+  color: #333e49;
   font-weight: normal;
   font-size: 14px;
   white-space: normal;
@@ -3051,8 +3034,8 @@ background: transparent;
 
 .fileBrowserColumn .header{
   border: 0;
-  font-size: 18px;
-  color: #19bc73;
+  font-size: 22px;
+  color: #5d6672;
   padding: 0 0 20px 0;
   cursor: default;
   font-family: OpenSansLight, Helvetica, Arial, Sans serif;
@@ -3060,8 +3043,10 @@ background: transparent;
 
 #fileBrowserFiles.fileBrowserColumn .body,
 #fileBrowserFolders.fileBrowserColumn .body {
-  border: 1px solid #bfe5dc;
+  border: 1px solid #cfcfcf;
+  background: #fff;
   top: 59px;
+  padding: 10px;
 }
 .fileBrowserColumn .body .folder .element {
   padding: 6px;
@@ -3069,7 +3054,7 @@ background: transparent;
   font-family: opensanslight, Helvetica, Arial, Sans serif;
 }
 #fileBrowserButtons .body{
-  border-top: 4PX solid #f217ce;
+  border-top: 5px solid #5d6672;
   padding: 16px 0 0 0;
   top: 59px;
 }
@@ -3083,21 +3068,23 @@ background: transparent;
 
 .fileBrowserColumn .body .folder.selected > .element {
   font-weight: normal;
-  background: #d7cde9;
-  /*      transition: all 300ms;
--moz-transition: all 300ms;
--webkit-transition: all 300ms;*/
-}
-
-.fileBrowserColumn .body .folder.secondarySelected > .element {
-  font-weight: normal;
-  background: #dcede7;
+  background: #777;
+  color: #fff;
   -moz-transition: all 600ms;
   -webkit-transition: all 600ms;
 }
 
-.fileBrowserColumn .body .file.selected{
-  background: #d7cde9;
+.fileBrowserColumn .body .folder.secondarySelected > .element {
+  font-weight: normal;
+  background: #777;
+  color: #fff;
+  -moz-transition: all 600ms;
+  -webkit-transition: all 600ms;
+}
+
+.fileBrowserColumn .body .file.selected {
+  background: #777;
+  color: #fff;
   font-weight: normal;
   -moz-transition: all 600ms;
   -webkit-transition: all 600ms;
@@ -3114,8 +3101,8 @@ background: transparent;
 
 .fileChooserHeader{
   background-color: #8ac6b3;
-  border-bottom: 1px solid #bfe5dc;
-  border-right: 1px solid #bfe5dc;
+  border-bottom: 1px solid #cfcfcf;
+  border-right: 1px solid #cfcfcf;
   padding-left: 5px;
   padding-right: 5px;
   font-size: 14px;
@@ -3125,7 +3112,7 @@ background: transparent;
 
 .fileBrowserColumn .body .separator {
   margin: 10px 0px;
-  border-top: solid 1px #bfe5dc;
+  border-top: solid 1px #cfcfcf;
 }
 
 .fileChooser-scrollPanel {
@@ -4836,7 +4823,7 @@ div.listbox .pentaho-listbox {
   display: block;
   border-top: 2px solid transparent;
   border-bottom: 1px solid transparent;
-  border-left: 1px solid #c1e1d7;
+  border-left: 1px solid #cfcfcf;
   border-right: 1px solid transparent;
   padding: 10px;
 }
@@ -4844,7 +4831,7 @@ div.listbox .pentaho-listbox {
 #launch-widget .card {
   border-bottom: 2px solid transparent;
   border-left: 1px solid transparent;
-  border-top: 1px solid #c1e1d7;
+  border-top: 1px solid #cfcfcf;
   border-right: 1px solid transparent;
   padding: 10px;
 }
@@ -4860,17 +4847,17 @@ div.listbox .pentaho-listbox {
 #launch-widget .selected {
   background-color: #FFF;
   border-bottom: 2px solid #f217ce;
-  border-left: 1px solid #c1e1d7;
+  border-left: 1px solid #cfcfcf;
   border-top: 1px solid #fff;
-  border-right: 1px solid #c1e1d7;
+  border-right: 1px solid #cfcfcf;
 }
 
 #getting-started .selected {
   background-color: #FFF;
   border-top: 2px solid #f217ce;
-  border-bottom: 1px solid #c1e1d7;
+  border-bottom: 1px solid #cfcfcf;
   border-left: 1px solid #fff;
-  border-right: 1px solid #c1e1d7;
+  border-right: 1px solid #cfcfcf;
 }
 
 #getting-started .card-img, #launch-widget .card-img {
@@ -4904,7 +4891,7 @@ div.listbox .pentaho-listbox {
   background-color: #f5f8f6;
   padding: 0px;
   font-size: 12px;
-  border-top: 0px solid #c1e1d7;
+  border-top: 0px solid #cfcfcf;
 }
 
 #launch-widget.widget-panel .tab-content {
@@ -5000,7 +4987,7 @@ div.listbox .pentaho-listbox {
 }
 
 #sample-sub-container{
-  border: 1px solid #c1e1d7;
+  border: 1px solid #cfcfcf;
   width:100%;
   height: 100%;
 }
@@ -5417,7 +5404,7 @@ treecontrol.tree-classic li .tree-selected {
   height: auto;
   padding-left: 29px;
   padding-top: 0px;
-  color: #333;
+  color: #333e49;
   font-size: 13px;
   background-color: #fee7fd;
 }
@@ -5428,4 +5415,39 @@ treecontrol.tree-classic li .tree-selected {
   background-color: #fee7fd;
   border-color: #cacbca;
   margin-top: 10px;
+}
+
+
+/*home buttons*/
+#buttonWrapper button.btn.btn-large.btn-block {
+  background: #3BA749;
+  color: #fefefe !important;
+  text-shadow: none;
+  font-family: OpenSansRegular, Helvetica, Arial, sans-serif;
+  border: 0;
+  margin-bottom: 20px;
+
+
+  box-shadow: 0 0 5px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0 0 5px rgba(0,0,0,0.3);
+  -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+
+#buttonWrapper button.btn.btn-large.btn-block:hover,
+#buttonWrapper button.btn.btn-large.btn-block:focus,
+#buttonWrapper button.btn.btn-large.btn-block:active {
+  color: #fff;
+  background-image: linear-gradient(bottom, #3BA749 49%, #42ba51 88%);
+  background-image: -o-linear-gradient(bottom, #3BA749 49%, #42ba51 88%);
+  background-image: -moz-linear-gradient(bottom, #3BA749 49%, #42ba51 88%);
+  background-image: -webkit-linear-gradient(bottom, #3BA749 49%, #42ba51 88%);
+  background-image: -ms-linear-gradient(bottom, #3BA749 49%, #42ba51 88%);
+  background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0.49, #3BA749), color-stop(0.88, #42ba51));
+  outline: 0;
+}
+
+#buttonWrapper button.btn.btn-large.btn-block:hover:active {
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  -moz-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
 }
