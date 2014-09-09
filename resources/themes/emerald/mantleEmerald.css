@@ -24,7 +24,7 @@
 }
 
 .workspaceHeading {
-  color: #19bc73;
+  color: #39a74a;
   font-size: 22px;
   padding: 0px 0px 0px 0px;
   font-family: OpenSansLight, Helvetica, Arial, Sans serif;
@@ -79,7 +79,7 @@
 }
 
 #adminCatTree .gwt-TreeItem-selected .gwt-Label {
-  color: #19bc73;
+  color: #39a74a;
   cursor: pointer;
   cursor: hand;
   background-image: none;
@@ -135,12 +135,12 @@
 }
 
 .mantle-perspective-toggle-down {
-  border-top: 2px solid #19bc73;
+  border-top: 2px solid #39a74a;
   color: white;
 }
 
 .mantle-perspective-toggle-down-hovering {
-  border-top: 2px solid #19bc73;
+  border-top: 2px solid #39a74a;
   color: white;
 }
 
@@ -199,19 +199,19 @@
 .solutionDisclosureHeaderWidget {
   background-color: #EEEEEE;
   border: 5px solid #EEEEEE;
-  color: #19bc73;
+  color: #39a74a;
 }
 
 .solutionDisclosureHeaderWidgetHover {
   background-color: #DDDDDD;
   border: 5px solid #DDDDDD;
-  color: #19bc73;
+  color: #39a74a;
 }
 
 .solutionDisclosureWidget {
   background-color: #EEEEEE;
   border: 1px solid #808080;
-  color: #19bc73;
+  color: #39a74a;
 }
 
 .classicNavigatorTable {
@@ -229,23 +229,23 @@
 }
 
 .classicNavigatorFileLabelHover {
-  color: #19bc73;
+  color: #39a74a;
 }
 
 .classicNavigatorFileLabel {
-  color: #19bc73;
+  color: #39a74a;
 }
 
 .numSolutionsLabel {
-  color: #19bc73;
+  color: #39a74a;
 }
 
 .breadCrumbLabel {
-  color: #19bc73;
+  color: #39a74a;
 }
 
 .breadCrumbLabelHover {
-  color: #19bc73;
+  color: #39a74a;
 }
 
 .hiddenFileLabel {
@@ -357,11 +357,11 @@
 }
 
 a, a:visited {
-  color: #19bc73;
+  color: #39a74a;
 }
 
 a:active, a:hover {
-  color: #19bc73;
+  color: #39a74a;
 }
 
 .filePropertyTabContent {
@@ -509,7 +509,7 @@ a:active, a:hover {
 }
 
 .workspace-resource-link {
-  color: #19bc73;
+  color: #39a74a;
   text-decoration: underline;
   cursor: hand;
   cursor: pointer;
@@ -888,7 +888,7 @@ a:active, a:hover {
 }
 
 #pucUserDropDown .custom-dropdown-pressed .custom-dropdown-arrow {
-  background-image: url('images/arrow-light-small.png');
+  background-image: url('images/arrow-dark-small.png');
 }
 
 #pucUserDropDown .custom-dropdown-arrow .gwt-Label {
@@ -910,7 +910,7 @@ a:active, a:hover {
 }
 
 #pucPerspectives .custom-dropdown-pressed .custom-dropdown-arrow {
-  background-image: url('images/dropdown_arrow_blue.png');
+  background-image: url('images/dropdown_arrow_gray.png');
 }
 
 #pucPerspectives .custom-dropdown-arrow .gwt-Label {
@@ -1141,6 +1141,7 @@ td.subMenuIcon-selected:after {
   content: '✓';
   position: absolute;
   color: #333;
+  font-family: OpenSansRegular, Arial, sans-serif;
 }
 .gwt-MenuBar-vertical .gwt-MenuItem-checkbox-checked-selected:hover:after {
   color: #fff;

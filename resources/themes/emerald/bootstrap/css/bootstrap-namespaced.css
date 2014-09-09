@@ -2772,14 +2772,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009772', end
   background-image: none;
   outline: 0;
   background: #8a6ec0; /* Old browsers */
-background: -moz-linear-gradient(top,  #8a6ec0 0%, #623dab 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#8a6ec0), color-stop(100%,#623dab)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  #8a6ec0 0%,#623dab 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  #8a6ec0 0%,#623dab 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  #8a6ec0 0%,#623dab 100%); /* IE10+ */
-background: linear-gradient(to bottom,  #8a6ec0 0%,#623dab 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8a6ec0', endColorstr='#623dab',GradientType=0 ); /* IE6-9 */
-color: #29443b;
+  background: -moz-linear-gradient(top,  #8a6ec0 0%, #623dab 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#8a6ec0), color-stop(100%,#623dab)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #8a6ec0 0%,#623dab 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #8a6ec0 0%,#623dab 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #8a6ec0 0%,#623dab 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #8a6ec0 0%,#623dab 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8a6ec0', endColorstr='#623dab',GradientType=0 ); /* IE6-9 */
+  color: #39a74a;
   /* -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
   -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
   box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05); */
@@ -2803,12 +2803,12 @@ color: #29443b;
   *margin-left: .3em;
   font-size: 14px;
   line-height: 20px;
-  color: #19BC73;
+  color: #39a74a;
   text-align: left;
   text-shadow: 0px 0px 1px rgba(255, 255, 255, 0.75);
   vertical-align: middle;
   cursor: pointer;
- background: transparent; /* Old browsers */
+  background: transparent; /* Old browsers */
   border: 0px;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -2826,8 +2826,7 @@ color: #29443b;
 .bootstrap #fileBrowserButtons  .btn.active,
 .bootstrap #fileBrowserButtons  .btn.disabled,
 .bootstrap #fileBrowserButtons  .btn[disabled] {
-  background-color: #00B085;
-  *background-color: #00B085;
+  background-color: none;
     -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
@@ -2856,8 +2855,9 @@ color: #29443b;
   transition: all 300ms;
   -moz-transition: all 300ms;
   -webkit-transition: all 300ms;
-  color: #699284;
-  background-color: #dcede7;
+  color: #39a74a;
+  background-color: none;
+  text-decoration: underline;
 }
 .bootstrap #fileBrowserButtons .btn .btn-large .btn-block:hover {
   transition: all 300ms;
@@ -2871,7 +2871,7 @@ color: #29443b;
   box-shadow: none;
 }
 .bootstrap #fileBrowserButtons .btn:focus {
-  color: ##19BC73;
+  color: #39a74a;
   text-decoration: none;
    background-color: transparent;
   *background-color: transparent;
@@ -2888,6 +2888,7 @@ color: #29443b;
     -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
+  text-decoration: underline;
 }
 .bootstrap #fileBrowserButtons  .btn.active,
 .bootstrap #fileBrowserButtons  .btn:active {
@@ -2896,6 +2897,7 @@ color: #29443b;
     -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
+  text-decoration: underline;
 
 }
 .bootstrap #fileBrowserButtons  .btn.disabled,
@@ -3500,7 +3502,7 @@ color: #29443b;
 .bootstrap .nav > li > a:focus {
   text-decoration: none;
   background-color: #FFF;
-  color: #19bc73;
+  color: #39a74a;
 }
 .bootstrap  #recentsContianer .nav > li > a:hover,
 .bootstrap  #recentsContianer .nav > li > a:focus,
@@ -3508,7 +3510,7 @@ color: #29443b;
 .bootstrap  #favoritesContianer .nav > li > a:focus {
   text-decoration: none;
   background-color: #dcede7;
-  color: #19bc73;
+  color: #39a74a;
   transition: all 300ms;
   -moz-transition: all 300ms;
   -webkit-transition: all 300ms;
@@ -4671,7 +4673,7 @@ height: auto;
   bottom: 0;
   left: 0;
   z-index: 1040;
-  background-color: #14644b;
+  background-color: #d3d3d3;
   /* IE8 css hack for opacity */
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=80)";
   filter: alpha(opacity = 80);
