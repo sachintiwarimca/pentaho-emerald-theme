@@ -49,8 +49,8 @@
 }
 
 html, body {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   font-family:  OpenSansRegular, sans-serif;
   font-size: 14px;
 	background: transparent;
@@ -66,12 +66,12 @@ a, a:link, a:active, a:hover {
   text-decoration: none;
 }
 div {
-  outline: 0px;
+  outline: 0;
   hideFocus: true;
 }
 
 img {
-  outline: 0px;
+  outline: 0;
   -moz-user-focus: none;
   user-focus: none;
 }
@@ -85,7 +85,7 @@ legend{
 }
 
 fieldset, fieldset.xul-fieldset {
-  padding: 0px;
+  padding: 0;
   width: auto;
   border: 1px solid #cfcfcf;
 }
@@ -105,9 +105,9 @@ input[type='text'], .bootstrap .pentaho-dialog input[type='text'] {
   border: 1px solid #cfcfcf;
   padding: 6px 2px 4px 5px;
   margin-left: 0;
-   -webkit-border-radius: 0px;
-  -moz-border-radius: 0px;
-  border-radius: 0px;
+   -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
   height: 29px !important;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -120,12 +120,19 @@ SELECT,
   border: 1px solid #cfcfcf;
   padding: 0 0 0 4px;
   font-size: 13px;
+  height: 29px;
 }
+
+.gwt-ListBox,
+.timeZonePicker {
+  height: auto;
+}
+
 .IE .scheduleEditor SELECT {
   margin: 2px;
 }
 .IE .scheduleEditor FIELDSET TD {
-  padding-top: 0px !important;
+  padding-top: 0 !important;
 }
 
 *:focus {outline: none;}
@@ -148,7 +155,7 @@ margin-left: 4px;
   padding: 4px;
 }
 .groupOption input[type="text"], .groupOption input[type="password"] {
-margin-left: 0px;
+margin-left: 0;
 }
 .gwt-PasswordTextBox,
 input, input[type="password"]{
@@ -169,10 +176,10 @@ input, input[type="password"]{
   display: block;
   height: 60px;
   background: #d3d3d3;
-  -webkit-box-shadow: 0px 2px 3px rgba(50, 50, 50, 0.4);
-  -moz-box-shadow:    0px 2px 3px rgba(50, 50, 50, 0.4);
-  box-shadow:         0px 2px 3px rgba(50, 50, 50, 0.4);
-  padding: 24px 0 0px 0;
+  -webkit-box-shadow: 0 2px 3px rgba(50, 50, 50, 0.4);
+  -moz-box-shadow:    0 2px 3px rgba(50, 50, 50, 0.4);
+  box-shadow:         0 2px 3px rgba(50, 50, 50, 0.4);
+  padding: 24px 0 0 0;
 }
 
   /* Standard button style. Should be applied to a <button> element to get full pseudo-styles. */
@@ -194,10 +201,10 @@ input, input[type="password"]{
   -moz-box-shadow: 0 0 5px rgba(0,0,0,0.3);
   -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.3);
   white-space: nowrap;
-  /*text-shadow: 0px 0px 2px rgba(000, 000, 000, 1);*/
+  /*text-shadow: 0 0 2px rgba(000, 000, 000, 1);*/
   cursor: pointer;
   /* Chrome has a default 2px margin for buttons in user agent stylesheet rule */
-  margin: 0px;
+  margin: 0 0 0 5px;
 }
 
   /* Applies the green glow to buttons */
@@ -284,7 +291,7 @@ input, input[type="password"]{
 }
 
 .pentaho-toggle-button-horizontal {
-  margin: 2px 0px 2px 0px;
+  margin: 2px 0 2px 0;
 }
 
 .pentaho-toggle-button-single {
@@ -303,43 +310,43 @@ input, input[type="password"]{
 
 .pentaho-toggle-button-horizontal-first {
   /* Standard form */
-  border-radius: 5px 0px 0px 5px;
+  border-radius: 5px 0 0 5px;
   /* Firefox */
-  -moz-border-radius: 5px 0px 0px 5px;
+  -moz-border-radius: 5px 0 0 5px;
   /* Safari/Chrome */
-  -webkit-border-radius: 5px 0px 0px 5px;
+  -webkit-border-radius: 5px 0 0 5px;
 }
 
 .pentaho-toggle-button-horizontal-last {
   /* Standard form */
-  border-radius: 0px 5px 5px 0px;
+  border-radius: 0 5px 5px 0;
   /* Firefox */
-  -moz-border-radius: 0px 5px 5px 0px;
+  -moz-border-radius: 0 5px 5px 0;
   /* Safari/Chrome */
-  -webkit-border-radius: 0px 5px 5px 0px;
+  -webkit-border-radius: 0 5px 5px 0;
 }
 
 .pentaho-toggle-button-vertical {
-  margin: 0px 2px 0px 2px;
+  margin: 0 2px 0 2px;
 }
 
 .pentaho-toggle-button-vertical-first {
-  margin: 2px 2px 0px 2px;
+  margin: 2px 2px 0 2px;
   /* Standard form */
-  border-radius: 5px 5px 0px 0px;
+  border-radius: 5px 5px 0 0;
   /* Firefox */
-  -moz-border-radius: 5px 5px 0px 0px;
+  -moz-border-radius: 5px 5px 0 0;
   /* Safari/Chrome */
-  -webkit-border-radius: 5px 5px 0px 0px;
+  -webkit-border-radius: 5px 5px 0 0;
 }
 
 .pentaho-toggle-button-vertical-last {
   /* Standard form */
-  border-radius: 0px 0px 5px 5px;
+  border-radius: 0 0 5px 5px;
   /* Firefox */
-  -moz-border-radius: 0px 0px 5px 5px;
+  -moz-border-radius: 0 0 5px 5px;
   /* Safari/Chrome */
-  -webkit-border-radius: 0px 0px 5px 5px;
+  -webkit-border-radius: 0 0 5px 5px;
 }
 
   /* Standard toggle button style. Should be applied to a <button> element to get full pseudo-styles. */
@@ -357,7 +364,7 @@ input, input[type="password"]{
 }
 
 .IE .pentaho-toggle-button-up-hovering {
-  /*border: 0px solid #7302FF;
+  /*border: 0 solid #7302FF;
   background: url('images/bg_btn.png') repeat-x;
   background-position: center center;*/
   background-color: #00b085;
@@ -385,7 +392,7 @@ input, input[type="password"]{
 }
 
 .IE .pentaho-toggle-button-down-hovering {
-  /*border: 0px solid #7302FF;
+  /*border: 0 solid #7302FF;
   background: url('images/bg_btn_selected.png') repeat-x;
   background-position: center center;*/
 }
@@ -400,7 +407,7 @@ div#FilterPanel div.pentaho-toggle-button-down button{
   z-index: 1050;
   position: absolute;
   background: #f5f8f6;
-  padding: 8px 8px 0px 8px;
+  padding: 8px 8px 0 8px;
 
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -415,12 +422,12 @@ div#FilterPanel div.pentaho-toggle-button-down button{
   width: auto;
   height: auto;
 
-  -webkit-border-radius: 0px;
-  -moz-border-radius: 0px;
-  border-radius: 0px;
-  -webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
-  -moz-box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
-  box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  -moz-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
   -webkit-background-clip: none;
   -moz-background-clip: none;
   background-clip: none;
@@ -531,7 +538,7 @@ div#FilterPanel div.pentaho-toggle-button-down button{
   color: #39a74a;
   cursor: move;
   padding: 6px 0 2px 10px;
-  border: 0px solid black;
+  border: 0 solid black;
   text-align: left;
 }
 
@@ -554,7 +561,7 @@ div#FilterPanel div.pentaho-toggle-button-down button{
 }
 
 .pentaho-dialog .button-panel {
-  padding: 12px 8px 10px 0px;
+  padding: 12px 8px 10px 0;
   width: 100%;
   height: auto;
   margin: 0;
@@ -569,12 +576,12 @@ div#FilterPanel div.pentaho-toggle-button-down button{
 }
 
 .dialog-content {
-  border: 0px;
+  border: 0;
   background: #f5f8f6;
 }
 
 .dialog-button-panel {
-  padding: 2px 0px;
+  padding: 2px 0;
 }
 
   /* The following classes are handing tons of intermediate and extraneous elements generated by the GWT dialog implementation */
@@ -636,11 +643,11 @@ div#FilterPanel div.pentaho-toggle-button-down button{
   opacity: 0.8;
   height: 100%;
   width: 100%;
-  top: 0px;
-  left: 0px;
+  top: 0;
+  left: 0;
   z-index: 300;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   display: none;
 }
 
@@ -648,8 +655,11 @@ div#FilterPanel div.pentaho-toggle-button-down button{
   display: inline-table;
   background: transparent;
   cursor: pointer;
-  margin-left: 0px;
+  margin-left: 0;
   padding: 6px 8px;
+  border-top: solid 1px transparent;
+  border-left: solid 1px transparent;
+  border-right: solid 1px transparent;
 }
 
 .IE .pentaho-tabWidget {
@@ -657,8 +667,8 @@ div#FilterPanel div.pentaho-toggle-button-down button{
 }
 
 .pentaho-tabWidget .pentaho-tabWidgetLabel {
-  margin: 0px;
-  padding-bottom: 0px;
+  margin: 0;
+  padding-bottom: 0;
   font-size: 16px;
   color: #74b19d;
   white-space: nowrap;
@@ -697,8 +707,8 @@ border-top: 4px solid transparent;
 }
 
 .pentaho-tabWidget-selected .pentaho-tabWidgetLabel {
-  margin: 0px;
-  padding-bottom: 0px;
+  margin: 0;
+  padding-bottom: 0;
   white-space: nowrap;
   color: #263d36;
 }
@@ -706,11 +716,11 @@ border-top: 4px solid transparent;
   padding: 2px 8px;
 }
 .pentaho-tab-panel {
-  background: url('images/bg_admin_tab_panel.png') repeat-x 0 0px;
+  background: url('images/bg_admin_tab_panel.png') repeat-x 0 0;
   height: 35px;
 }
 .pentaho-tab-bar {
-  background: url('images/bg_admin_tab_panel.png') repeat-x 0 0px;
+  background: url('images/bg_admin_tab_panel.png') repeat-x 0 0;
   min-height: 35px;
 }
  .dialog-content  .pentaho-tab-bar {
@@ -735,7 +745,7 @@ border-top: 4px solid transparent;
 }
 
 .pentaho-tabPanel {
-  border-top: 0px solid #E8EAE9;
+  border-top: 0 solid #E8EAE9;
   border-right: 1px solid #cfcfcf;
   border-bottom: 1px solid #cfcfcf;
   border-left: 1px solid #cfcfcf;
@@ -744,23 +754,24 @@ border-top: 4px solid transparent;
 }
 
 .pentaho-tab-deck-panel {
-  border-top: 0px solid #E8EAE9;
+  border-top: 0 solid #E8EAE9;
   border-right: 1px solid #cfcfcf;
   border-bottom: 1px solid #cfcfcf;
   border-left: 1px solid #cfcfcf;
   height: 100%;
   background-color: #fff;
   position: relative;
+  top: -3px;
 }
 
 /* Webkit browsers only */
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   #solutionNavigatorAndContentPanel .pentaho-tab-deck-panel>DIV {
     position: absolute;
-    top: 0px;
-    left: 0px;
-    bottom: 0px;
-    right: 0px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
   }
 }
 
@@ -803,7 +814,7 @@ border-top: 4px solid transparent;
   height: 100%;
   background: transparent;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#666666', endColorstr = '#666666', GradientType = 1);
-  font-size: 0px;
+  font-size: 0;
 }
 
 .jspHorizontalBar {
@@ -814,7 +825,7 @@ border-top: 4px solid transparent;
   height: 16px;
   background: transparent;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#666666', endColorstr = '#666666', GradientType = 1);
-  font-size: 0px;
+  font-size: 0;
 }
 
   /*.jspVerticalBar *,
@@ -852,7 +863,7 @@ border-top: 4px solid transparent;
   border-top: 1px solid #b5b5b5;
   border-bottom: 1px solid #b5b5b5;
   /* Safari/Chrome */
-  -webkit-box-shadow: black 0px 0px 1px, rgba(0, 0, 0, 0.699219) 0px 0px 1px inset;
+  -webkit-box-shadow: black 0 0 1px, rgba(0, 0, 0, 0.699219) 0 0 1px inset;
 
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#777777', endColorstr = '#999999');
 }
@@ -866,11 +877,11 @@ border-top: 4px solid transparent;
   border-left: 1px solid #b5b5b5;
   border-right: 1px solid #b5b5b5;
   /* Safari/Chrome */
-  -webkit-box-shadow: black 0px 0px 1px, rgba(0, 0, 0, 0.699219) 0px 0px 1px inset;
+  -webkit-box-shadow: black 0 0 1px, rgba(0, 0, 0, 0.699219) 0 0 1px inset;
   /* Firefox */
-  -moz-box-shadow: black 0px 0px 1px, rgba(0, 0, 0, 0.699219) 0px 0px 1px inset;
+  -moz-box-shadow: black 0 0 1px, rgba(0, 0, 0, 0.699219) 0 0 1px inset;
   /* Standard Form */
-  box-shadow: black 0px 0px 1px, rgba(0, 0, 0, 0.699219) 0px 0px 1px inset;
+  box-shadow: black 0 0 1px, rgba(0, 0, 0, 0.699219) 0 0 1px inset;
 
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#7777777', endColorstr = '#9999999', GradientType = 1);
 }
@@ -907,11 +918,11 @@ border-top: 4px solid transparent;
 
   border: 1px solid #b5b5b5;
   /* Safari/Chrome */
-  -webkit-box-shadow: black 0px 0px 1px, rgba(0, 0, 0, 0.699219) 0px 0px 1px inset;
+  -webkit-box-shadow: black 0 0 1px, rgba(0, 0, 0, 0.699219) 0 0 1px inset;
   /* Firefox */
-  -moz-box-shadow: black 0px 0px 1px, rgba(0, 0, 0, 0.699219) 0px 0px 1px inset;
+  -moz-box-shadow: black 0 0 1px, rgba(0, 0, 0, 0.699219) 0 0 1px inset;
   /* Standard Form */
-  box-shadow: black 0px 0px 1px, rgba(0, 0, 0, 0.699219) 0px 0px 1px inset;
+  box-shadow: black 0 0 1px, rgba(0, 0, 0, 0.699219) 0 0 1px inset;
 
   background: url("../images/scroll_bottom_arrow.png") no-repeat center center;
   /* Safari/Chrome */
@@ -931,11 +942,11 @@ border-top: 4px solid transparent;
 
   border: 1px solid #b5b5b5;
   /* Safari/Chrome */
-  -webkit-box-shadow: black 0px 0px 1px, rgba(0, 0, 0, 0.699219) 0px 0px 1px inset;
+  -webkit-box-shadow: black 0 0 1px, rgba(0, 0, 0, 0.699219) 0 0 1px inset;
   /* Safari/Chrome */
-  -moz-box-shadow: black 0px 0px 1px, rgba(0, 0, 0, 0.699219) 0px 0px 1px inset;
+  -moz-box-shadow: black 0 0 1px, rgba(0, 0, 0, 0.699219) 0 0 1px inset;
   /* Standard Form */
-  box-shadow: black 0px 0px 1px, rgba(0, 0, 0, 0.699219) 0px 0px 1px inset;
+  box-shadow: black 0 0 1px, rgba(0, 0, 0, 0.699219) 0 0 1px inset;
 
   background: url("../images/scroll_top_arrow.png") no-repeat center center;
   /* Safari/Chrome */
@@ -957,11 +968,11 @@ border-top: 4px solid transparent;
 
   border: 1px solid #b5b5b5;
   /* Safari/Chrome */
-  -webkit-box-shadow: black 0px 0px 1px, rgba(0, 0, 0, 0.699219) 0px 0px 1px inset;
+  -webkit-box-shadow: black 0 0 1px, rgba(0, 0, 0, 0.699219) 0 0 1px inset;
   /* Firefox */
-  -moz-box-shadow: black 0px 0px 1px, rgba(0, 0, 0, 0.699219) 0px 0px 1px inset;
+  -moz-box-shadow: black 0 0 1px, rgba(0, 0, 0, 0.699219) 0 0 1px inset;
   /* Standard Form */
-  box-shadow: black 0px 0px 1px, rgba(0, 0, 0, 0.699219) 0px 0px 1px inset;
+  box-shadow: black 0 0 1px, rgba(0, 0, 0, 0.699219) 0 0 1px inset;
 
   background: url("../images/scroll_left_arrow.png") no-repeat center center;
   /* Safari/Chrome */
@@ -987,11 +998,11 @@ border-top: 4px solid transparent;
   border: 1px solid #b5b5b5;
 
   /* Safari/Chrome */
-  -webkit-box-shadow: black 0px 0px 1px, rgba(0, 0, 0, 0.699219) 0px 0px 1px inset;
+  -webkit-box-shadow: black 0 0 1px, rgba(0, 0, 0, 0.699219) 0 0 1px inset;
   /* Firefox */
-  -moz-box-shadow: black 0px 0px 1px, rgba(0, 0, 0, 0.699219) 0px 0px 1px inset;
+  -moz-box-shadow: black 0 0 1px, rgba(0, 0, 0, 0.699219) 0 0 1px inset;
   /* Standard Form */
-  box-shadow: black 0px 0px 1px, rgba(0, 0, 0, 0.699219) 0px 0px 1px inset;
+  box-shadow: black 0 0 1px, rgba(0, 0, 0, 0.699219) 0 0 1px inset;
 
   background: url("../images/scroll_right_arrow.png") no-repeat center center;
   background-repeat: no-repeat;
@@ -1152,7 +1163,7 @@ border-top: 4px solid transparent;
 .toolbar-button {
   background-color: transparent;
   border: 1px solid rgba(0, 0, 0, 0);
-  margin: 0px;
+  margin: 0;
   width: 22px;
   height: 22px;
   -webkit-user-select: none;
@@ -1171,7 +1182,7 @@ input:focus {
   border: 1px solid #3D8063;
   background: rgba(255, 255, 255, .2);
   cursor: pointer;
-  margin: 0px;
+  margin: 0;
   width: 22px;
   height: 22px;
   -webkit-user-select: none;
@@ -1185,7 +1196,7 @@ input:focus {
 
 .toolbar-toggle-button {
   border: 1px solid rgba(0, 0, 0, 0);
-  margin: 0px;
+  margin: 0;
   width: 22px;
   height: 22px;
   -webkit-user-select: none;
@@ -1198,7 +1209,7 @@ input:focus {
 .toolbar-toggle-button-down {
   border: 1px solid #3d8063;
   background-color: rgba(255, 255, 255, 0.2);
-  margin: 0px;
+  margin: 0;
   width: 22px;
   height: 22px;
   -webkit-user-select: none;
@@ -1211,14 +1222,14 @@ input:focus {
 .toolbar-toggle-button-down-hovering {
   border: 1px solid #dcede7;
   background: rgba(255, 255, 255, .2);
-  margin: 0px;
+  margin: 0;
   cursor: pointer;
 }
 
 .IE .toolbar-toggle-button-down-hovering {
   border: 1px solid #dcede7;!important;
   background: none;
-  margin: 0px;
+  margin: 0;
   cursor: pointer;
 }
 
@@ -1226,14 +1237,14 @@ input:focus {
   background: rgba(255, 255, 255, 0.2);
   border: 1px solid #dcede7;
   cursor: pointer;
-  margin: 0px;
+  margin: 0;
 }
 
 .IE .toolbar-toggle-button-hovering {
   background: none;
   border: 1px solid #dcede7;
   cursor: pointer;
-  margin: 0px;
+  margin: 0;
 }
 
 .toolbar-combo-button {
@@ -1251,7 +1262,7 @@ input:focus {
   background-color: #E8E8E8;
   border: 1px solid #AAA;
   cursor: pointer;
-  margin: 0px;
+  margin: 0;
   width: 22px;
   height: 22px;
 }
@@ -1274,7 +1285,7 @@ input:focus {
 
 .toolbar-combo-button-hovering {
   border: 1px solid #AAA;
-  margin: 0px;
+  margin: 0;
 }
 
 .pentaho-titled-toolbar {
@@ -1295,7 +1306,7 @@ input:focus {
 }
 
 .IE .pentaho-bottom-bar {
-  /* background: url('images/bg_bottom_bar.png') repeat-x 0px -4px; */
+  /* background: url('images/bg_bottom_bar.png') repeat-x 0 -4px; */
 }
 
 .pentaho-transparent {
@@ -1347,16 +1358,16 @@ body.IE>table {
 .IE #pucContent>div {
   position: absolute;
   height: auto; /* reset applicationShell 100% setting, otherwise bottom and top don't work well */
-  top:    0px;
+  top:    0;
   bottom: 13px; /* Unfortunately, have to hardcode the effect of pentaho-rounded-panel class */
-  left:   0px;
-  right:  0px;
+  left:   0;
+  right:  0;
 }
 
 .IE #pucContent>div>div {
   position: absolute;
-  top: 0px;
-  bottom: 0px;
+  top: 0;
+  bottom: 0;
   width: 100%;
 }
 
@@ -1370,10 +1381,10 @@ body.IE>table {
   /* the div inside one of the table cells should take all available height */
 .IE #adminContentPanel>tbody>tr>td>div {
   position: absolute;
-  top: 0px;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
   /* END IE FIXES Admin View */
 
@@ -1408,11 +1419,11 @@ body.IE>table {
 .pentaho-tooltip-background {
   background-color: #eff4f2;
   border: 1px solid #cfcfcf;
-  -webkit-box-shadow: 0px 3px 5px rgba(50, 50, 50, 0.6);
+  -webkit-box-shadow: 0 3px 5px rgba(50, 50, 50, 0.6);
   /* Firefox */
-  -moz-box-shadow: 0px 3px 5px rgba(50, 50, 50, 0.6);
+  -moz-box-shadow: 0 3px 5px rgba(50, 50, 50, 0.6);
   /* Standard Form */
-  box-shadow: 0px 3px 5px rgba(50, 50, 50, 0.6);
+  box-shadow: 0 3px 5px rgba(50, 50, 50, 0.6);
 }
 
 .IE .pentaho-tooltip-background {
@@ -1427,21 +1438,21 @@ body.IE>table {
 
 .pentaho-shadow {
   /*
- -webkit-box-shadow: 0px 3px 5px rgba(50, 50, 50, 0.3);
- -moz-box-shadow:    0px 3px 5px rgba(50, 50, 50, 0.3);
- box-shadow:         0px 3px 5px rgba(50, 50, 50, 0.3);*/
+ -webkit-box-shadow: 0 3px 5px rgba(50, 50, 50, 0.3);
+ -moz-box-shadow:    0 3px 5px rgba(50, 50, 50, 0.3);
+ box-shadow:         0 3px 5px rgba(50, 50, 50, 0.3);*/
 }
 
 .pentaho-shadow-inset-glow {
-  /*  -moz-box-shadow: 1px 1px 5px 0px #333333, 0 0 1px 1px rgba(255, 255, 255, .6) inset;
-  -webkit-box-shadow: 1px 1px 5px 0px #333333, 0 0 1px 1px rgba(255, 255, 255, .6) inset;
-  box-shadow: 1px 1px 5px 0px #333333, 0 0 1px 1px rgba(255, 255, 255, .6) inset;*/
+  /*  -moz-box-shadow: 1px 1px 5px 0 #333333, 0 0 1px 1px rgba(255, 255, 255, .6) inset;
+  -webkit-box-shadow: 1px 1px 5px 0 #333333, 0 0 1px 1px rgba(255, 255, 255, .6) inset;
+  box-shadow: 1px 1px 5px 0 #333333, 0 0 1px 1px rgba(255, 255, 255, .6) inset;*/
 }
 
 .pentaho-shadow-no-offset {
-  /*  -moz-box-shadow: 1px 1px 5px 0px #333333;
-  -webkit-box-shadow: 1px 1px 5px 0px #333333;
-  box-shadow: 1px 1px 5px 0px #333333;*/
+  /*  -moz-box-shadow: 1px 1px 5px 0 #333333;
+  -webkit-box-shadow: 1px 1px 5px 0 #333333;
+  box-shadow: 1px 1px 5px 0 #333333;*/
 }
 
 .pentaho-rounded-panel2 {
@@ -1461,15 +1472,15 @@ body.IE>table {
   -webkit-border-radius: 5px;
   border-radius: 5px;
 
-  -moz-box-shadow: 1px 1px 5px 0px #333333, 0 0 1px 1px rgba(255, 255, 255, .6) inset;
-  -webkit-box-shadow: 1px 1px 5px 0px #333333, 0 0 1px 1px rgba(255, 255, 255, .6) inset;
-  box-shadow: 1px 1px 5px 0px #333333, 0 0 1px 1px rgba(255, 255, 255, .6) inset;*/
+  -moz-box-shadow: 1px 1px 5px 0 #333333, 0 0 1px 1px rgba(255, 255, 255, .6) inset;
+  -webkit-box-shadow: 1px 1px 5px 0 #333333, 0 0 1px 1px rgba(255, 255, 255, .6) inset;
+  box-shadow: 1px 1px 5px 0 #333333, 0 0 1px 1px rgba(255, 255, 255, .6) inset;*/
 }
 
 .pentaho-rounded-panel-bottom-lr {
-  /*  -moz-border-radius: 0px 0px 7px 7px;
-  -webkit-border-radius: 0px 0px 7px 7px;
-  border-radius: 0px 0px 7px 7px;*/
+  /*  -moz-border-radius: 0 0 7px 7px;
+  -webkit-border-radius: 0 0 7px 7px;
+  border-radius: 0 0 7px 7px;*/
 }
 
 .pentaho-shadow-right-side {
@@ -1482,25 +1493,25 @@ body.IE>table {
   /*  border-top: 1px solid rgba(255, 255, 255, 0.59375);
   border-right: 1px solid rgba(255, 255, 255, 0.59375);
   border-bottom: 1px solid rgba(255, 255, 255, 0.59375);
-  -moz-border-radius: 0px 5px 5px 0px;
-  -webkit-border-radius: 0px 5px 5px 0px;
-  border-radius: 0px 5px 5px 0px;*/
+  -moz-border-radius: 0 5px 5px 0;
+  -webkit-border-radius: 0 5px 5px 0;
+  border-radius: 0 5px 5px 0;*/
 }
 
 .pentaho-rounded-panel-top-right {
   /*  border-top: 1px solid rgba(255, 255, 255, 0.59375);
   border-right: 1px solid rgba(255, 255, 255, 0.59375);
-  -moz-border-radius: 0px 5px 0px 0px;
-  -webkit-border-radius: 0px 5px 0px 0px;
-  border-radius: 0px 5px 0px 0px;*/
+  -moz-border-radius: 0 5px 0 0;
+  -webkit-border-radius: 0 5px 0 0;
+  border-radius: 0 5px 0 0;*/
 }
 
 .pentaho-rounded-panel-top-left {
   /*  border-top: 1px solid black;
   border-left: 1px solid black;
-  -moz-border-radius: 5px 0px 0px 0px;
-  -webkit-border-radius: 5px 0px 0px 0px;
-  border-radius: 5px 0px 0px 0px;*/
+  -moz-border-radius: 5px 0 0 0;
+  -webkit-border-radius: 5px 0 0 0;
+  border-radius: 5px 0 0 0;*/
 }
 
 .pentaho-disclosure-panel{
@@ -1527,11 +1538,11 @@ body.IE>table {
 
 .pentaho-disclosure-panel-open {
   width: 100%;
-  padding: 6px 6px 0px 6px;
+  padding: 6px 6px 0 6px;
 }
 
 .pentaho-disclosure-panel-dropdown {
-  padding: 0px 10px 0px 10px;
+  padding: 0 10px 0 10px;
   overflow: hidden;
 }
 
@@ -1553,7 +1564,7 @@ body.IE>table {
 
 .pentaho-disclosure-panel-closed {
   width: 100%;
-  padding: 6px 6px 0px 6px;
+  padding: 6px 6px 0 6px;
 }
 
 .pentaho-disclosure-panel-closed .header {
@@ -1603,9 +1614,9 @@ body.IE>table {
   -webkit-border-radius: 5px;
   border-radius: 5px;
 
-  -moz-box-shadow: 1px 1px 5px 0px #333333, 0 0 1px 1px rgba(255, 255, 255, .6) inset;
-  -webkit-box-shadow: 1px 1px 5px 0px #333333, 0 0 1px 1px rgba(255, 255, 255, .6) inset;
-  box-shadow: 1px 1px 5px 0px #333333, 0 0 1px 1px rgba(255, 255, 255, .6) inset;
+  -moz-box-shadow: 1px 1px 5px 0 #333333, 0 0 1px 1px rgba(255, 255, 255, .6) inset;
+  -webkit-box-shadow: 1px 1px 5px 0 #333333, 0 0 1px 1px rgba(255, 255, 255, .6) inset;
+  box-shadow: 1px 1px 5px 0 #333333, 0 0 1px 1px rgba(255, 255, 255, .6) inset;
 }
 
 .IE .pentaho-launcher-panel-shadowed {
@@ -1627,13 +1638,13 @@ body.IE>table {
   height: 100%;
   width: 100%;
   font-size: 13px;
-  text-shadow: rgba(255, 255, 255, 0.398438) 0px 1px 0px;
+  text-shadow: rgba(255, 255, 255, 0.398438) 0 1px 0;
   padding: 5px;
 }
 
 .login-panel-label {
   font-size: 13px;
-  text-shadow: rgba(255, 255, 255, 0.398438) 0px 1px 0px;
+  text-shadow: rgba(255, 255, 255, 0.398438) 0 1px 0;
 }
 
 .pentaho-light-text {
@@ -1865,21 +1876,21 @@ body.IE>table {
 .pentaho-closebutton.pentaho-imagebutton-hover {
   width: 13px;
   height: 16px;
-  background: url('images/closeTab_active.png') no-repeat 0px 4px;
+  background: url('images/closeTab_active.png') no-repeat 0 4px;
   cursor: pointer;
 }
 
 .pentaho-closebutton {
   width: 13px;
   height: 16px;
-  background: url('images/closeTab_active.png') no-repeat 0px 4px;
+  background: url('images/closeTab_active.png') no-repeat 0 4px;
   cursor: pointer;
 }
 
 .pentaho-closebutton.pentaho-imagebutton-disabled {
   width: 13px;
   height: 16px;
-  background: url('images/closeTab_off.png') no-repeat 0px 4px;
+  background: url('images/closeTab_off.png') no-repeat 0 4px;
   cursor: default;
 }
 
@@ -2147,7 +2158,7 @@ body.IE>table {
 
 .pentaho-table-cell {
   background-color: white;
-  padding: 0px 10px 0px 10px;
+  padding: 0 10px 0 10px;
 }
 
 .pentaho-list-box {
@@ -2167,7 +2178,7 @@ body.IE>table {
   width: 16px;
   height: 16px;
   float: left;
-  background-position: 0px 1px;
+  background-position: 0 1px;
 }
 
 .treenode-closed {
@@ -2175,7 +2186,7 @@ body.IE>table {
   width: 16px;
   height: 16px;
   float: left;
-  background-position: 0px 1px;
+  background-position: 0 1px;
 }
 
 .treenode-leaf-label {
@@ -2227,7 +2238,7 @@ body.IE>table {
 }
 
 .splashtitle {
-  padding-top: 0px;
+  padding-top: 0;
   color: #39a74a;
   font-family: opensanslight, Helvetica, Arial, Sans serif;
   font-size: 18px;
@@ -2255,7 +2266,7 @@ body.IE>table {
   background: -moz-linear-gradient(#AAAAAA, #888888 10%, #3F3F3F 50%, #000000 55%, #121212 90%);
   border: 1px outset gray;
   cursor: pointer;
-  font-size: 0px;
+  font-size: 0;
 
   zoom: 1;
 }
@@ -2266,7 +2277,7 @@ body.IE>table {
   background: -moz-linear-gradient(#AAA, #BBB 10%, #8d8d8d 50%, #727272 55%, #747474 90%);
 
   border: 1px outset gray;
-  font-size: 0px;
+  font-size: 0;
 }
 
 .pentaho-dropdownbutton-inner {
@@ -2276,7 +2287,7 @@ body.IE>table {
   cursor: pointer;
   height: 8px;
   width: 10px;
-  font-size: 0px;
+  font-size: 0;
 }
 
 .pentaho-dropdownbutton-inner.pentaho-disabled {
@@ -2286,14 +2297,14 @@ body.IE>table {
   cursor: pointer;
   height: 8px;
   width: 10px;
-  font-size: 0px;
+  font-size: 0;
 }
 .tundra .dijitSelect .dijitButtonContents{
   background:  #fff;
 }
 
 .tundra .dijitArrowButtonInner {
-  background:url("images/16x16_down.png") no-repeat scroll 0px center;
+  background:url("images/16x16_down.png") no-repeat scroll 0 center;
   width: 16px;
   height: 16px;
   margin: 0;
@@ -2331,7 +2342,7 @@ body.IE>table {
   box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.5), 0 1px 3px rgba(255, 255, 255, 0.7), 0 0 2px rgba(0, 0, 0, 0.7) inset;
 
   white-space: nowrap;
-  text-shadow: 0px 0px 2px rgba(000, 000, 000, 1);
+  text-shadow: 0 0 2px rgba(000, 000, 000, 1);
   cursor: pointer;
 }
 
@@ -2439,8 +2450,8 @@ body.IE>table {
   height: 100%;
   width: 100%;
   z-index: 300;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   display: none;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -2483,8 +2494,8 @@ body.IE>table {
 }
 .dialog-buttons {
 height: 30px;
-margin-bottom: 0px;
-margin-top: 0px;
+margin-bottom: 0;
+margin-top: 0;
 padding: 10px 0 10px 0;
 }
 
@@ -2518,7 +2529,7 @@ padding: 10px 0 10px 0;
 }
 
 .tabpanel {
-  border: 0px solid #000000;
+  border: 0 solid #000000;
 }
 #sidepaneltabs {
   width: 258px;
@@ -2602,8 +2613,8 @@ padding: 10px 0 10px 0;
   position: absolute;
   width: 330px;
   top: 44%;
-  right: 0px;
-  left: 0px;
+  right: 0;
+  left: 0;
   margin: auto;
   z-index: 20001;
   height: auto;
@@ -2941,13 +2952,13 @@ width: 22px;
 
 .fileBrowserColumn .body div.folder.open > div.element > div.expandCollapse {
 background: url("images/arrow_open.png") no-repeat;
-background-position: 0px 3px;
+background-position: 0 3px;
 height: 16px;
 width: 16px;
 }
 .fileBrowserColumn .body div.folder > div.element > div.expandCollapse {
 background: url("images/arrow_closed.png") no-repeat;
-background-position: 0px 3px;
+background-position: 0 3px;
 height: 16px;
 width: 16px;
 }
@@ -2985,7 +2996,7 @@ width: 16px;
 .pentaho-selection-dialog-outer {
   border: 1px solid #cfcfcf;
   background: #f5f8f6;
-  padding: 8px 8px 0px 8px;
+  padding: 8px 8px 0 8px;
 }
 .pentaho-selection-dialog-inner {
 background:transparent;
@@ -2998,28 +3009,28 @@ background: transparent;
   /* #d7cde9; */
   /* #8a6ec0; */
 .highlight-shadow{
-  -moz-box-shadow: 0 0 0px 2px #8a6ec0;
-  -webkit-box-shadow: 0 0 0px 2px #8a6ec0;
-  box-shadow: 0 0 0px 2px #8a6ec0;
+  -moz-box-shadow: 0 0 0 2px #8a6ec0;
+  -webkit-box-shadow: 0 0 0 2px #8a6ec0;
+  box-shadow: 0 0 0 2px #8a6ec0;
 }
 .panelContent {
   background-color: #fff;
   border: 0;
 }
 .edit-panel{
-  border-top: 0px solid #969696;
+  border-top: 0 solid #969696;
   background: rgba(255, 255, 255, 0.2);
   padding: 4px 4px 4px 4px;
   overflow: hidden;
   background-color: #e8f4f0;
-  -webkit-border-radius: 0px;
-  border-radius: 0px;
+  -webkit-border-radius: 0;
+  border-radius: 0;
 }
 
 #props-deck-1 > #propertiesPanel{
   background: transparent;
   padding: 4px;
-  border: 0px solid #666;
+  border: 0 solid #666;
 }
 .gwt-ScrollTable .headerTable td{
   color: #FFFFFF;
@@ -3107,18 +3118,16 @@ background: transparent;
 }
 
 .fileChooserHeader{
-  background-color: #8ac6b3;
-  border-bottom: 1px solid #cfcfcf;
-  border-right: 1px solid #cfcfcf;
-  padding-left: 5px;
-  padding-right: 5px;
+  background-color: #777;
+  border: none;
+  padding: 5px;
   font-size: 14px;
   color: #fff;
   cursor: default;
 }
 
 .fileBrowserColumn .body .separator {
-  margin: 10px 0px;
+  margin: 10px 0;
   border-top: solid 1px #cfcfcf;
 }
 
@@ -3131,8 +3140,8 @@ background: transparent;
 
   /*  end browser styles */
 #reportPageOutline {
-  -webkit-box-shadow: 0px 2px 3px 3px rgba(0, 0, 0, .3);
-  box-shadow: 0px 1px 6px 1px rgba(58, 58, 58, .1);
+  -webkit-box-shadow: 0 2px 3px 3px rgba(0, 0, 0, .3);
+  box-shadow: 0 1px 6px 1px rgba(58, 58, 58, .1);
   padding: 0;
   margin-top: 4px;
   border: 0;
@@ -3149,7 +3158,7 @@ background: transparent;
 }
 .admin-perspective .pentaho-tab-deck-panel {
   background-color: #FFF;
-  border-top: 0px solid #E8EAE9;
+  border-top: 0 solid #E8EAE9;
   border-right: 1px solid #cfcfcf;
   border-bottom: 1px solid #cfcfcf;
   border-left: 1px solid #cfcfcf;
@@ -3197,15 +3206,15 @@ button.adminButton {
   height: 30px;
 }
 #reportContainer{
-  border: solid 0px #cfcfcf;
+  border: solid 0 #cfcfcf;
   padding: 0;
 }
 .reportMain{
-  border: 0px solid rgb(224, 224, 224);
+  border: 0 solid rgb(224, 224, 224);
 }
 
 .pc_pageTotal, .dijitToolbar .pc_pageTotal{
-  padding: 4px 0px 0px 2px;
+  padding: 4px 0 0 2px;
 }
 
 .reportArea #selectionFilterPanel{
@@ -3254,7 +3263,7 @@ button.adminButton {
 
 .gwt-ScrollTable .headerWrapper {
   background: #d2d2d2 scroll left bottom;
-  padding-right: 0px;
+  padding-right: 0;
 }
 .IE .gwt-ScrollTable .headerTable td {
 background-image: none;
@@ -3276,16 +3285,16 @@ background-color: #8ac6b3;
 }
 #contentLinkingAssignmentTable .gwt-ScrollTable .headerTable td,
 #propertiesPanelParameterAssignmentTable .gwt-ScrollTable .headerTable td {
-  padding-left:   0px;
-  padding-right:  0px;
+  padding-left:   0;
+  padding-right:  0;
   height: 20px;
   font-size: 14px;
 }
 
 #contentLinkingAssignmentTable .gwt-ScrollTable .dataTable>tbody>tr>td,
 #propertiesPanelParameterAssignmentTable .gwt-ScrollTable .dataTable>tbody>tr>td {
-    padding-left:  0px;
-    padding-right: 0px;
+    padding-left:  0;
+    padding-right: 0;
 }
 
 
@@ -3297,7 +3306,7 @@ background-color: #8ac6b3;
 .gwt-ScrollTable .headerTable-disabled td {
   font-weight: normal;
   color: #000000;
-  border-right: 0px;
+  border-right: 0;
 }
 
 .gwt-ScrollTable .dataTable tr {
@@ -3452,14 +3461,15 @@ background-color: #8ac6b3;
 
 .custom-list {
   border: 1px solid #cfcfcf;
+  margin-top: 1px;
 }
 
 .combo-arrow {
   padding: 8px 5px 6px;
   background: #d3d3d3;
   cursor: pointer;
-  font-size: 0px;
-  margin-top: -2px;
+  font-size: 0;
+  margin-top: -1px;
   margin-bottom: -2px;
   border: none;
 }
@@ -3476,9 +3486,9 @@ background-color: #8ac6b3;
 
 .combo-arrow-disabled{
   padding: 8px 5px 6px;
-  background: #f1f1f1;
+  background: #d3d3d3;
   cursor: pointer;
-  font-size: 0px;
+  font-size: 0;
   margin-top: -2px;
   margin-bottom: -2px;
   border: none;
@@ -3507,19 +3517,19 @@ background-color: #8ac6b3;
 .styled >* #reportControlPanel,
 #reportControlPanel {
   max-height: 370px;
-  margin: 0px;
+  margin: 0;
   background-color: #f5f8f6;
   border-top: 1px solid #abd9c9;
   border-bottom: 1px solid #abd9c9;
-  border-left: 0px solid #abd9c9;
-  border-right: 0px solid #abd9c9;
+  border-left: 0 solid #abd9c9;
+  border-right: 0 solid #abd9c9;
   width: 100%;
 }
 div.prompt-panel .pentaho-toggle-button-container {
   margin: 2px 0;
 }
 .nonMobile.styled #reportControlPanel {
-  margin: 0px 0px 0px 0px;
+  margin: 0 0 0 0;
 }
  div.prompt-panel .pentaho-toggle-button-container > DIV {
   height: 30px;
@@ -3542,8 +3552,8 @@ div.prompt-panel .pentaho-toggle-button-container {
   border-radius: 6px;
   margin: 0 auto;
   padding: 20px;
-  /*-webkit-box-shadow: 0px 3px 5px rgba(50, 50, 50, 0.3);
-  box-shadow: 0px 3px 5px rgba(50, 50, 50, 0.3);*/
+  /*-webkit-box-shadow: 0 3px 5px rgba(50, 50, 50, 0.3);
+  box-shadow: 0 3px 5px rgba(50, 50, 50, 0.3);*/
   background: url('images/warning-icon.png') no-repeat 15px center #FBDCEA;
 }
 .invalidLicense{
@@ -3588,7 +3598,7 @@ div.prompt-panel .pentaho-toggle-button-container {
 
 .IE #createJoinButton,
 #createJoinButton{
-  padding: 0 0 2px 0px;
+  padding: 0 0 2px 0;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
@@ -3599,7 +3609,7 @@ div.prompt-panel .pentaho-toggle-button-container {
 
 .IE #deleteJoinButton,
 #deleteJoinButton {
-  padding: 0 0 2px 0px;
+  padding: 0 0 2px 0;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
@@ -3669,7 +3679,7 @@ div.prompt-panel .pentaho-toggle-button-container {
 #login INPUT[type="text"],
 #login INPUT[type="password"] {
   margin-right: 20px;
-  margin-left: 0px;
+  margin-left: 0;
   width: 202px;
 }
 
@@ -3694,7 +3704,7 @@ div.prompt-panel .pentaho-toggle-button-container {
   margin-left: auto;
   margin-right: auto;
   text-align: right;
-  left: 0px;
+  left: 0;
   width: 1255px;
   display: block;
   overflow: hidden;
@@ -3704,7 +3714,7 @@ div.prompt-panel .pentaho-toggle-button-container {
   font-size: 13px;
   color: #93A09D;
   white-space: nowrap;
-  width: 0px;
+  width: 0;
   opacity: 0.5;
   display: block;
   -moz-transition: width 600ms linear, opacity 1s linear;
@@ -3739,7 +3749,7 @@ div.prompt-panel .pentaho-toggle-button-container {
   transition: width 600ms linear, left 600ms linear, opacity 1s linear;
 }
 #animate-wrapper.afterSlide {
-  left: 0px;
+  left: 0;
   width: 550px;
   opacity: 1;
 }
@@ -3753,7 +3763,7 @@ div.prompt-panel .pentaho-toggle-button-container {
 #evaluationPanel .login-label {
   margin-bottom: 5px;
   font-size: 14px;
-  min-height: 0px;
+  min-height: 0;
 }
 
 .login-role {
@@ -3861,7 +3871,8 @@ div.prompt-panel .pentaho-toggle-button-container {
 }
 
 .custom-list-item-hover{
-  background-color: #dcede7;
+  background-color: #777;
+  color: #fff;
 }
 .custom-list-item-selected{
   background-color: #777;
@@ -3894,7 +3905,7 @@ div.prompt-panel .pentaho-toggle-button-container {
   background-image: url('../images/disclosure_close.png');
 }
 .pc_pageControlContainer, .dijitToolbar .pc_pageControlContainer {
-padding: 0px 1px 0px 1px;
+padding: 0 1px 0 1px;
 height: auto;
 vertical-align: middle;
 }
@@ -4116,7 +4127,7 @@ vertical-align: middle;
   background-repeat: no-repeat;
   width: 16px;
   height: 16px;
-  background-position: 0px 2px;
+  background-position: 0 2px;
 }
 
 .pentaho-filechooseupbutton {
@@ -4589,7 +4600,7 @@ background: url("images/connector_top.png") no-repeat top left;
    background: url('images/trashcan_full.png') no-repeat scroll;
 }
 .colorpickertabs.tabpanel {
-  padding: 0px;
+  padding: 0;
   height:230px;
   width: 222px;
   display:block;
@@ -4752,7 +4763,7 @@ div.listbox .pentaho-listbox {
   width: 32px;
 }
 #stepsPanel {
-  border-right: 0px solid black;
+  border-right: 0 solid black;
   background-image: url(images/bg_steps.png);
 }
 /* instaview fiel type icon? */
@@ -4766,7 +4777,7 @@ div.listbox .pentaho-listbox {
 /* layout anel gem styling */
 .gem{
   height: 17px;
-  border-radius: 0px;
+  border-radius: 0;
   padding: 1px 5px;
   margin-bottom: 4px;
   min-width: 120px;
@@ -4784,7 +4795,7 @@ div.listbox .pentaho-listbox {
 
 .propPanel_gemBar {
   background: #f5f8f6;
-  border: 0px;
+  border: 0;
 }
 
 .propPanel_gemBar.number .gem {
@@ -4795,15 +4806,15 @@ div.listbox .pentaho-listbox {
 .propPanel_gemBar.number .gem.over {
   background: #d7cde9;
   border: 1px solid #8a6ec0;
-  -moz-box-shadow: #F2E8FB 0px 0px 1px 1px inset;
-  -webkit-box-shadow: #F2E8FB 0px 0px 1px 1px inset;
+  -moz-box-shadow: #F2E8FB 0 0 1px 1px inset;
+  -webkit-box-shadow: #F2E8FB 0 0 1px 1px inset;
 }
 
 .gem.over{
   background: #CBA3EF;
   border: 1px solid #8727DF;
-  -moz-box-shadow: #F2E8FB 0px 0px 1px 1px inset;
-  -webkit-box-shadow: #F2E8FB 0px 0px 1px 1px inset;
+  -moz-box-shadow: #F2E8FB 0 0 1px 1px inset;
+  -webkit-box-shadow: #F2E8FB 0 0 1px 1px inset;
 }
 .gem .gemMenuHandle{
   float: right;
@@ -4887,8 +4898,8 @@ div.listbox .pentaho-listbox {
 
 #getting-started .selector-column {
   position: absolute;
-  top: 0px;
-  right: 0px;
+  top: 0;
+  right: 0;
   width: 190px;
   height: 381px;
 }
@@ -4909,13 +4920,13 @@ div.listbox .pentaho-listbox {
 
 #launch-widget .horizontal-selector, #getting-started .vertical-selector {
   background-color: #f5f8f6;
-  padding: 0px;
+  padding: 0;
   font-size: 12px;
-  border-top: 0px solid #cfcfcf;
+  border-top: 0 solid #cfcfcf;
 }
 
 #launch-widget.widget-panel .tab-content {
-  padding-left: 0px;
+  padding-left: 0;
 }
 
 #getting-started #tab2 .details-img {
@@ -5038,11 +5049,11 @@ div.listbox .pentaho-listbox {
 }
 
 #launch-widget-container.main-container {
-    padding-top: 0px;
+    padding-top: 0;
 }
 
 #launch-widget {
-    padding-top: 0px;
+    padding-top: 0;
 }
 
 #launch-widget-title-row-span {
@@ -5214,8 +5225,8 @@ div.listbox .pentaho-listbox {
 .dijitCalendarContainer .dijitCalendarDateTemplate {
     padding-top: 2px;
     padding-bottom: 2px;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 0;
+    padding-right: 0;
 
     text-align: center;
 }
@@ -5231,7 +5242,7 @@ div.listbox .pentaho-listbox {
 }
 
 [id*=DP] .dijitDownArrowButton input {
-  padding: 0px;
+  padding: 0;
 }
 
 #widget_DP_range1_lookup, #widget_DP_range2_lookup {
@@ -5249,8 +5260,8 @@ div.listbox .pentaho-listbox {
 }
 
 #date-picker-dlg-wrapper .dijitComboBox {
-  border-top-right-radius: 0px;
-  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
 }
 
 #date-picker-dlg-wrapper #DP_range1, #date-picker-dlg-wrapper #DP_range2 {
@@ -5262,10 +5273,10 @@ div.listbox .pentaho-listbox {
 }
 
 #DP_range1_lookup, #DP_range2_lookup {
-  padding-right: 0px;
-  padding-top: 0px;
+  padding-right: 0;
+  padding-top: 0;
   padding-left: 5px !important;
-  padding-bottom: 0px;
+  padding-bottom: 0;
   text-align: left;
 }
 
@@ -5388,7 +5399,7 @@ treecontrol.tree-classic li .tree-selected {
   cursor: pointer;
   height: 17px;
   width: 16px;
-  font-size: 0px;
+  font-size: 0;
 }
 .angular-dojo.dateTimePicker .pentaho-dropdownbutton-inner.disabled {
   background-image: url('images/calendar_icon_disabled.png');
@@ -5400,8 +5411,8 @@ treecontrol.tree-classic li .tree-selected {
 
 .tundra table.dijitValidationTextBox .dijitButtonContents,
 .tundra table.dijitValidationTextBox .dijitArrowButtonInner {
-    padding-top: 0px;
-    padding-bottom: 0px;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 .schedule-dialog-button-panel tr td button.pentaho-button{
@@ -5411,9 +5422,9 @@ treecontrol.tree-classic li .tree-selected {
 
 .bootstrap DIV select {
   border: 1px solid #cfcfcf;
-  --webkit-border-radius: 0px;
-  --moz-border-radius: 0px;
-  border-radius: 0px !important;
+  --webkit-border-radius: 0;
+  --moz-border-radius: 0;
+  border-radius: 0 !important;
   --webkit-box-shadow: none;
   --moz-box-shadow: none;
   box-shadow: none;
@@ -5424,7 +5435,7 @@ treecontrol.tree-classic li .tree-selected {
   vertical-align: middle;
   height: auto;
   padding-left: 29px;
-  padding-top: 0px;
+  padding-top: 0;
   color: #333e49;
   font-size: 13px;
   background-color: #fee7fd;
@@ -5480,9 +5491,62 @@ treecontrol.tree-classic li .tree-selected {
 .gwt-Label {
   font-size: 13px;
   margin-top: 5px;
+  position: relative;
 }
 
-.custom-list-item .gwt-Label {
+.custom-list-item .gwt-Label,
+.custom-list-disabled .gwt-Label {
   font-size: 14px;
   margin-top: 0;
+}
+
+.custom-list-disabled {
+  opacity: .55;
+  border: 1px solid #cfcfcf;
+  background: #e9e9e9;
+}
+
+.custom-list-disabled-item {
+  background-color: #e9e9e9;
+  height: 20px;
+}
+
+.custom-list-item {
+  height: 20px;
+}
+
+.gwt-DisclosurePanel > tbody > tr > td > a > table.gwt-Label:after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 8px;
+  left: 8px;
+  border-left: 4px solid #333;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+}
+
+.gwt-DisclosurePanel.gwt-DisclosurePanel-closed > tbody > tr > td > a > table.gwt-Label:after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 10px;
+  left: 8px;
+  border-top: 4px solid #333;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+}
+.gwt-DisclosurePanel > tbody > tr > td > a > table.gwt-Label img {
+  display: none;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #cbcbcb;
+}
+
+table {
+  border-spacing: 0;
 }

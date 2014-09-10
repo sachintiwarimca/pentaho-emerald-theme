@@ -4858,18 +4858,17 @@ height: auto;
   padding: 1px;
   text-align: left;
   white-space: normal;
-  background-color: #dcede7;
-  border: 1px solid #8bc5b5;
-  border: 1px solid rgba(139, 181, 197, 0.2);
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
-  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-  -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding;
   background-clip: padding-box;
+  background-color: #fff;
+  border: 1px solid #cfcfcf;
+  -webkit-box-shadow: 2px 2px 4px 0px #d0d0d0;
+  -moz-box-shadow: 2px 2px 4px 0px #d0d0d0;
+  box-shadow: 2px 2px 4px 0px #d0d0d0;
 }
 .bootstrap .popover.top {
   margin-top: -10px;
@@ -4921,36 +4920,33 @@ height: auto;
   bottom: -11px;
   left: 50%;
   margin-left: -11px;
-  border-top-color: #999;
-  border-top-color: rgba(0, 0, 0, 0.25);
+  border-top-color: #cfcfcf;
   border-bottom-width: 0;
 }
 .bootstrap .popover.top .arrow:after {
   bottom: 1px;
   margin-left: -10px;
-  border-top-color: #dcede7;
+  border-top-color: #fff;
   border-bottom-width: 0;
 }
 .bootstrap .popover.right .arrow {
   top: 50%;
   left: -11px;
   margin-top: -11px;
-  border-right-color: #8bc5b5;
-  border-right-color: rgba(139, 181, 197, 0.25);
+  border-right-color: #cfcfcf;
   border-left-width: 0;
 }
 .bootstrap .popover.right .arrow:after {
   bottom: -10px;
   left: 1px;
-  border-right-color: #dcede7;
+  border-right-color: #fff;
   border-left-width: 0;
 }
 .bootstrap .popover.bottom .arrow {
   top: -11px;
   left: 50%;
   margin-left: -11px;
-  border-bottom-color: #999;
-  border-bottom-color: rgba(0, 0, 0, 0.25);
+  border-bottom-color: #cfcfcf;
   border-top-width: 0;
 }
 .bootstrap .popover.bottom .arrow:after {
@@ -4963,8 +4959,7 @@ height: auto;
   top: 50%;
   right: -11px;
   margin-top: -11px;
-  border-left-color: #999;
-  border-left-color: rgba(0, 0, 0, 0.25);
+  border-left-color: #cfcfcf;
   border-right-width: 0;
 }
 .bootstrap .popover.left .arrow:after {
