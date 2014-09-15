@@ -683,7 +683,7 @@ div#FilterPanel div.pentaho-toggle-button-down button{
   margin: 0;
   padding-bottom: 0;
   font-size: 16px;
-  color: #74b19d;
+  color: #263d36;
   white-space: nowrap;
   font-family: OpenSansLight, Helvetica, Arial, sans-serif;
   padding: 0 8px;
@@ -3174,14 +3174,16 @@ background: transparent;
 }
 .admin-perspective .pentaho-tab-deck-panel {
   background-color: #FFF;
-  border-top: 0 solid #E8EAE9;
+  border-top: 1px solid #cfcfcf;
   border-right: 1px solid #cfcfcf;
   border-bottom: 1px solid #cfcfcf;
   border-left: 1px solid #cfcfcf;
 }
 .admin-perspective .pentaho-tab-bar {
   background-image:none;
-height: 39px;
+	height: 40px;
+	z-index: 100;
+	position: relative;
 }
 .admin-perspective .pentaho-tab-panel {
   background: url('images/bg_admin_tab_panel.png') repeat-x 0 3px;

@@ -862,6 +862,13 @@ a:active, a:hover {
   box-shadow: none;
 }
 
+.mantle-perspective-switcher .custom-dropdown-pressed {
+  -webkit-box-shadow: 0 2px 3px rgba(50, 50, 50, 0.4);
+  -moz-box-shadow: 0 2px 3px rgba(50, 50, 50, 0.4);
+  box-shadow: 0 2px 3px rgba(50, 50, 50, 0.4);
+  z-index: 100;
+}
+
 .custom-dropdown-label {
   font-size: 28px;
   color: #333333;
@@ -961,8 +968,10 @@ a:active, a:hover {
 }
 
 .custom-dropdown-popup {
-  z-index: 100;
-  box-shadow: 2px 2px 4px 0px #d0d0d0;
+  z-index: 300;
+  -webkit-box-shadow: 0 2px 3px rgba(50, 50, 50, 0.4);
+  -moz-box-shadow: 0 2px 3px rgba(50, 50, 50, 0.4);
+  box-shadow: 0 2px 3px rgba(50, 50, 50, 0.4);
 }
 
 .custom-dropdown-popup .gwt-MenuBar-vertical .gwt-MenuItem {
