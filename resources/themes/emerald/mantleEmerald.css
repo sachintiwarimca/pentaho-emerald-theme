@@ -24,7 +24,7 @@
 }
 
 .workspaceHeading {
-  color: #39a74a;
+  color: #5d6672;
   font-size: 22px;
   padding: 0px 0px 0px 0px;
   font-family: OpenSansLight, Helvetica, Arial, Sans serif;
@@ -742,7 +742,7 @@ a:active, a:hover {
 }
 
 .leaf-widget .gwt-TreeItem-selected > table {
-  background-color: #d7cde9;
+  background-color: #ebebeb;
 }
 
 .leaf-widget .leaf-widget-hidden .gwt-TreeItem > table {
@@ -1114,7 +1114,7 @@ a:active, a:hover {
 }
 
 .gwt-MenuBar-vertical .gwt-MenuItem-selected:hover {
-  background-color: #dcede7;
+  background-color: #ebebeb;
 }
 
 td.subMenuIcon:after {
@@ -1263,6 +1263,8 @@ td.subMenuIcon-selected:after {
   padding: 10px 10px;
   overflow: hidden;
   text-align: left;
+  -moz-transition: all 600ms;
+  -webkit-transition: all 600ms;
 }
 
 .pentaho-table .cellTableFirstColumnFooter {
@@ -1287,7 +1289,8 @@ td.subMenuIcon-selected:after {
 }
 
 .pentaho-table .cellTableSortableHeader:hover {
-  color: #dfdfdf;
+  background: #3BA749;
+  color: #fff;
 }
 
 .pentaho-table .cellTableSortedHeaderAscending {
@@ -1300,6 +1303,8 @@ td.subMenuIcon-selected:after {
 
 .pentaho-table .cellTableEvenRow {
   background: #ffffff;
+  -moz-transition: all 600ms;
+  -webkit-transition: all 600ms;
 }
 
 .pentaho-table .cellTableEvenRowCell {
@@ -1308,6 +1313,8 @@ td.subMenuIcon-selected:after {
 
 .pentaho-table .cellTableOddRow {
   background: #f0f0f0;
+  -moz-transition: all 600ms;
+  -webkit-transition: all 600ms;
 }
 
 .pentaho-table .cellTableOddRowCell {
@@ -1315,32 +1322,32 @@ td.subMenuIcon-selected:after {
 }
 
 .pentaho-table .cellTableHoveredRow {
-  background: #dcede7;
+  background: #ebebeb;
   -moz-transition: all 600ms;
   -webkit-transition: all 600ms;
 }
 
 .pentaho-table .cellTableHoveredRowCell {
-  border: 2px solid #dcede7;
+  border: 2px solid #ebebeb;
   -moz-transition: all 600ms;
   -webkit-transition: all 600ms;
 }
 
 .pentaho-table .cellTableKeyboardSelectedRow {
-  background: #d7cde9;
+  background: #ebebeb;
   -moz-transition: all 600ms;
   -webkit-transition: all 600ms;
 }
 
 .pentaho-table .cellTableKeyboardSelectedRowCell {
-  border: 2px solid #d7cde9;
+  border: 2px solid #ebebeb;
   -moz-transition: all 600ms;
   -webkit-transition: all 600ms;
 }
 
 .pentaho-table .cellTableSelectedRow {
-  background: #d7cde9;
-  color: #263d36;
+  background: #777;
+  color: #fff;
   height: auto;
   overflow: auto;
   -moz-transition: all 600ms;
@@ -1348,7 +1355,7 @@ td.subMenuIcon-selected:after {
 }
 
 .pentaho-table .cellTableSelectedRowCell {
-  border: 2px solid #d7cde9;
+  border: 2px solid #777;
   -moz-transition: all 600ms;
   -webkit-transition: all 600ms;
 }
@@ -1398,7 +1405,7 @@ td.subMenuIcon-selected:after {
 .newToolbarDropdown {
   border: 1px solid #8bc5b5;
   border: 1px solid rgba(139, 181, 197, 0.2);
-  background-color: #dcede7;
+  background-color: #ebebeb;
 
   /* Standard form */
   border-radius: 6px;

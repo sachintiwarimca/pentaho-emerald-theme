@@ -85,7 +85,7 @@ legend{
 }
 
 fieldset, fieldset.xul-fieldset {
-  padding: 0;
+  padding: 5px;
   width: auto;
   border: 1px solid #cfcfcf;
 }
@@ -103,7 +103,7 @@ input[type='radio']{
 
 input[type='text'], .bootstrap .pentaho-dialog input[type='text'] {
   border: 1px solid #cfcfcf;
-  padding: 6px 2px 4px 5px;
+  padding: 6px 2px 6px 5px;
   margin-left: 0;
    -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -126,6 +126,7 @@ SELECT,
 .gwt-ListBox,
 .timeZonePicker {
   height: auto;
+  min-height: 29px;
 }
 
 .IE .scheduleEditor SELECT {
@@ -3235,14 +3236,50 @@ button.adminButton {
 }
 .pentaho-table {
   border-spacing: 1px;
-  background-color: #d7d7d7;
+  background-color: #d3d3d3;
 }
 .pentaho-table th{
   font-size: 16px;
   border-spacing: 2px;
   padding: 10px 10px 12px 10px;
   font-weight: normal;
-  background-color: #8ac6b3;
+  background-color: #39A34A;
+  color: #fff;
+}
+.pentaho-dialog.schedule-recurrence-dialog {
+	padding-bottom: 8px;
+}
+.scheduleEditor .timeZonePicker {
+	margin-top: -3px;
+}
+.scheduleEditor .gwt-Label {
+	margin-right: 10px;
+}
+.scheduleEditor .recurrenceRadioButton,
+.scheduleEditor .startLabel,
+.scheduleEditor .endLabel,
+.scheduleEditor .middleLabel {
+	line-height: 29px;
+	font-size: 13px;
+}
+.scheduleEditor span.gwt-RadioButton {
+	line-height: 29px;
+	margin-right: 10px;
+}
+input.DAY_OF_MONTH_TB {
+	margin: 2px;
+}
+.day-of-week-checkbox {
+	padding-left: 4px;
+	line-height: 29px;
+}
+input[type='checkbox'] {
+	top: 2px;
+	position: relative;
+}
+input[type='radio'] {
+	top: 2px;
+	position: relative;
 }
 .schedulesPanel .gwt-ScrollTable .dataTable td {
   padding: 10px 10px 12px 10px;
@@ -3257,7 +3294,7 @@ button.adminButton {
   background: #8ac6b3;
 }
 .gwt-ScrollTable {
-  border: 1px solid #d7d7d7;
+  border: 1px solid #d3d3d3;
   overflow: hidden;
 }
 
@@ -3272,7 +3309,7 @@ background-color: #8ac6b3;
 
 .gwt-ScrollTable .footerWrapper {
   background: #858585;
-  border-top: 1px solid #d7d7d7;
+  border-top: 1px solid #d3d3d3;
 }
 .gwt-ScrollTable .headerTable td {
   font-size: 16px;
@@ -3280,8 +3317,8 @@ background-color: #8ac6b3;
   padding: 4px 10px 4px 10px;
   font-weight: normal;
   background-color: #8ac6b3;
-  border-right: 1px solid #d7d7d7;
-  border-bottom: 1px solid #d7d7d7;
+  border-right: 1px solid #d3d3d3;
+  border-bottom: 1px solid #d3d3d3;
 }
 #contentLinkingAssignmentTable .gwt-ScrollTable .headerTable td,
 #propertiesPanelParameterAssignmentTable .gwt-ScrollTable .headerTable td {
@@ -3318,8 +3355,8 @@ background-color: #8ac6b3;
 }
 
 .gwt-ScrollTable .dataTable td {
-  border-bottom: 1px solid #d7d7d7;
-  border-right: 1px solid #d7d7d7;
+  border-bottom: 1px solid #d3d3d3;
+  border-right: 1px solid #d3d3d3;
 }
 
 .gwt-ScrollTable .dataTable tr.hovering {
@@ -3366,7 +3403,7 @@ background-color: #8ac6b3;
 
 .gwt-CellEditor {
   background: white none repeat scroll 0% 0%;
-  border: 3px solid #d7d7d7;
+  border: 3px solid #d3d3d3;
 }
 .gwt-Tree .gwt-TreeItem-selected{
   background-color: #777;
@@ -3417,8 +3454,8 @@ background-color: #8ac6b3;
   padding: 8px 10px 10px 10px;
   font-weight: normal;
   background: #8ac6b3;
-  border-right: 1px solid #d7d7d7;
-  border-bottom: 1px solid #d7d7d7;
+  border-right: 1px solid #d3d3d3;
+  border-bottom: 1px solid #d3d3d3;
   color: #fff;
   font-family: OpenSansLight,  Helvetica, Arial, Sans serif;
 }
@@ -3447,7 +3484,7 @@ background-color: #8ac6b3;
   /* cells */
 
 .soria .dojoxGridCell {
-  border: 1px solid #d7d7d7;
+  border: 1px solid #d3d3d3;
   font-size: 14px;
   padding: 10px 10px 12px 10px;
   font-family: OpenSansRegular,  Helvetica, Arial, Sans serif;
@@ -5490,7 +5527,7 @@ treecontrol.tree-classic li .tree-selected {
 
 .gwt-Label {
   font-size: 13px;
-  margin-top: 5px;
+  margin-top: 0;
   position: relative;
 }
 
@@ -5549,4 +5586,63 @@ hr {
 
 table {
   border-spacing: 0;
+}
+
+/* date picker */
+table.datePickerMonthSelector {
+	padding-bottom: 10px;
+	background: none;
+}
+
+table.datePickerMonthSelector td {
+	height: 20px;
+	line-height: 20px;
+	font-size: 12px;
+	font-weight: 300;
+}
+
+table.datePickerDays .datePickerDay {
+	border: 1px solid #ebebeb;
+	width: 18px;
+	height: 18px;
+	line-height: 18px;
+}
+
+table.datePickerDays .datePickerDayIsWeekend {
+	background: #ebebeb;
+	border: 1px solid #ebebeb;
+}
+
+table.datePickerDays .datePickerDayIsToday {
+	border: 1px solid #777777;
+}
+
+table.datePickerDays .datePickerDayIsValue,
+table.datePickerDays .datePickerDayIsValueAndHighlighted {
+	background: #777777;
+	color: white;
+	border: 1px solid #777777;
+}
+
+table.datePickerDays .datePickerDayIsHighlighted {
+	background: #777777;
+	color: white;
+	border: 1px solid #777777;
+}
+
+table.datePickerDays .datePickerWeekdayLabel, 
+table.datePickerDays .datePickerWeekendLabel {
+	background: #d3d3d3;
+	padding: 5px;
+}
+
+.dateBoxPopup {
+	padding: 5px;
+	border: 1px solid #d3d3d3;
+	background: #fff;
+	margin-top: 2px;
+}
+
+.gwt-DatePicker {
+	border: none
 }
