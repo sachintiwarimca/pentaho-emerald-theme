@@ -12,8 +12,13 @@
 }
 
 #contentCleanerPanel .pentaho-button {
-  margin-left:  2px;
-  margin-right: 2px;
+  margin-left:  0;
+  margin-right: 4px;
+  margin-bottom: 20px;
+}
+
+.applicationShell > div > div {
+  overflow-y: scroll;
 }
 
 .schedulerPerspective {
@@ -61,7 +66,7 @@
 
 #adminCatTree .gwt-Label {
   font-size: 16px;
-  color: #5c5c5c;
+  color: #5d6672;
   cursor: pointer;
   cursor: hand;
   height: 26px;
@@ -79,15 +84,15 @@
 }
 
 #adminCatTree .gwt-TreeItem-selected .gwt-Label {
-  color: #39a74a;
+  color: #ffffff;
   cursor: pointer;
   cursor: hand;
-  background-image: none;
+  background: url('images/16x16_right_white.png');
+  background-position: 95% center;
+  background-repeat: no-repeat;
 }
 
 #adminCatTree .tree-item-custom-widget-selected {
-  border: 0px solid transparent;
-  background: #cfcfcf;
 }
 
 #adminCatTree .tree-item-custom-widget {

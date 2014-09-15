@@ -114,6 +114,11 @@ input[type='text'], .bootstrap .pentaho-dialog input[type='text'] {
   -webkit-box-sizing: border-box;
 }
 
+.pentaho-admin-panel input[type='text'] {
+	min-width: 40px;
+}
+
+
 SELECT,
 .gwt-ListBox,
 .timeZonePicker {
@@ -158,10 +163,17 @@ margin-left: 4px;
 .groupOption input[type="text"], .groupOption input[type="password"] {
 margin-left: 0;
 }
-.gwt-PasswordTextBox,
-input, input[type="password"]{
+.gwt-PasswordTextBox input, input[type="password"]{
   border: 1px solid #cfcfcf;
-  padding: 4px 2px 4px 4px;
+  padding: 6px 2px 6px 5px;
+  margin-left: 0;
+   -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  height: 29px !important;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
 }
 .scroll-panel {
   position: relative;
@@ -190,7 +202,7 @@ input, input[type="password"]{
   font-size: 12px !important;
   color: #fefefe;
   padding: 6px 12px;
-  font-family: OpenSansRegular,  Helvetica, Arial, Sans serif;
+  font-family: OpenSansRegular,  Helvetica, Arial, sans-serif;
   /* Standard form */
   border-radius: 4px;
   /* Firefox */
@@ -673,7 +685,7 @@ div#FilterPanel div.pentaho-toggle-button-down button{
   font-size: 16px;
   color: #74b19d;
   white-space: nowrap;
-  font-family: OpenSansLight, Helvetica, Arial, Sans serif;
+  font-family: OpenSansLight, Helvetica, Arial, sans-serif;
   padding: 0 8px;
 }
 #sidepaneltabset .pentaho-tabWidgetLabel {
@@ -2241,7 +2253,7 @@ body.IE>table {
 .splashtitle {
   padding-top: 0;
   color: #39a74a;
-  font-family: opensanslight, Helvetica, Arial, Sans serif;
+  font-family: opensanslight, Helvetica, Arial, sans-serif;
   font-size: 18px;
   vertical-align: top;
   heightx: 60px;
@@ -2481,14 +2493,17 @@ body.IE>table {
 
 .pentaho-fieldgroup-major {
   font-size: 22px;
-  color: #39a74a;
-  font-family: OpenSansLight, Helvetica, Arial, Sans serif;
+  color: #5d6672;
+  font-family: OpenSansLight, Helvetica, Arial, sans-serif;
   cursor: default;
 }
 .authMethod,
 .pentaho-fieldgroup-minor {
-  font-size: 16px;
-  color: #263d36;
+  font-size: 18px;
+	color: #39a74a;
+	font-weight: 300;
+  font-family: OpenSansLight, Helvetica, Arial, sans-serif;
+  cursor: default;
 }
 .dialog-content .message{
   text-align: left;
@@ -2837,7 +2852,7 @@ padding: 10px 0 10px 0;
 }
 .tundra .dijitTitlePaneTextNode {
   font-size: 16px;
-  font-family: OpenSansLight, Helvetica, Arial, Sans serif;
+  font-family: OpenSansLight, Helvetica, Arial, sans-serif;
   padding: 0 0 0 4px;
 }
 
@@ -3057,7 +3072,7 @@ background: transparent;
   color: #5d6672;
   padding: 0 0 20px 0;
   cursor: default;
-  font-family: OpenSansLight, Helvetica, Arial, Sans serif;
+  font-family: OpenSansLight, Helvetica, Arial, sans-serif;
 }
 
 #fileBrowserFiles.fileBrowserColumn .body,
@@ -3070,7 +3085,7 @@ background: transparent;
 .fileBrowserColumn .body .folder .element {
   padding: 6px;
   font-size: 16px;
-  font-family: opensanslight, Helvetica, Arial, Sans serif;
+  font-family: opensanslight, Helvetica, Arial, sans-serif;
 }
 #fileBrowserButtons .body{
   border-top: 5px solid #5d6672;
@@ -3081,7 +3096,7 @@ background: transparent;
 .fileBrowserColumn .body .file {
   padding: 6px;
   font-size: 16px;
-  font-family: opensanslight, Helvetica, Arial, Sans serif;
+  font-family: opensanslight, Helvetica, Arial, sans-serif;
 }
 /* remove trasnstion for preformance but will revisit */
 
@@ -3176,7 +3191,7 @@ height: 39px;
  border-top: solid 4px transparent;
  }
 .admin-perspective .pentaho-tabWidget-selected {
-  border-top: solid 4px #f217ce;
+  border-top: solid 4px #5d6672;
   border-left: solid 1px #cfcfcf;
   border-right: solid 1px #cfcfcf;
   -moz-border-radius-topleft: 1px;
@@ -3457,7 +3472,7 @@ background-color: #8ac6b3;
   border-right: 1px solid #d3d3d3;
   border-bottom: 1px solid #d3d3d3;
   color: #fff;
-  font-family: OpenSansLight,  Helvetica, Arial, Sans serif;
+  font-family: OpenSansLight,  Helvetica, Arial, sans-serif;
 }
 
   /* rows */
@@ -3487,7 +3502,7 @@ background-color: #8ac6b3;
   border: 1px solid #d3d3d3;
   font-size: 14px;
   padding: 10px 10px 12px 10px;
-  font-family: OpenSansRegular,  Helvetica, Arial, Sans serif;
+  font-family: OpenSansRegular,  Helvetica, Arial, sans-serif;
 }
 
 .soria .dojoxGridCellOver {
@@ -3664,7 +3679,7 @@ div.prompt-panel .pentaho-toggle-button-container {
 }
 
 #csvDeckPanel .custom-list-textbox, #datasourceName, #uploadedFile, .dataTable .gwt-HTML{
-  font-family: opensansRegular,  Helvetica, Arial, Sans serif;
+  font-family: opensansRegular,  Helvetica, Arial, sans-serif;
   font-size: 14px;
   color:#263d36;
 }
@@ -3805,15 +3820,15 @@ div.prompt-panel .pentaho-toggle-button-container {
 
 .login-role {
   color: #777;
-  font-family: 'OpenSansLight', Helvetica, Arial, Sans serif;
+  font-family: 'OpenSansLight', Helvetica, Arial, sans-serif;
 }
 
 .login-label {
   color: #777;
-  font-family: 'OpenSansRegular', Helvetica, Arial, Sans serif;
+  font-family: 'OpenSansRegular', Helvetica, Arial, sans-serif;
 }
 .login-value{
- font-family: 'OpenSansLight', Helvetica, Arial, Sans serif;
+ font-family: 'OpenSansLight', Helvetica, Arial, sans-serif;
 }
 #evaluationPanel .btn {
   margin-top: 16px;
@@ -4996,7 +5011,7 @@ div.listbox .pentaho-listbox {
 }
 
 .detail-title {
-  font-family: OpenSansLight,  Helvetica, Arial, Sans serif;
+  font-family: OpenSansLight,  Helvetica, Arial, sans-serif;
   font-size: 22px;
   color: #263d36;
 }
@@ -5030,7 +5045,7 @@ div.listbox .pentaho-listbox {
   padding-right: 35px;
   padding-top: 16px;
   padding-bottom: 16px;
-  font-family: OpenSansLight,  Helvetica, Arial, Sans serif;
+  font-family: OpenSansLight,  Helvetica, Arial, sans-serif;
   background: url("images/open_new_window.png") no-repeat right center, -moz-linear-gradient(top, #009772 47%,  #007d5f  100%); /* FF3.6+ */
   background: url("images/open_new_window.png") no-repeat right center, -webkit-gradient(linear, left top, left bottom, color-stop(47%,#009772), color-stop(100%,#007d5f)); /* Chrome,Safari4+ */
   background: url("images/open_new_window.png") no-repeat right center, -webkit-linear-gradient(top,  #009772  47%,#007d5f  100%); /* Chrome10+,Safari5.1+ */
