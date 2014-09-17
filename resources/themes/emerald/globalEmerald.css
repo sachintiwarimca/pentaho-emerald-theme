@@ -2401,7 +2401,7 @@ body.IE>table {
    border: 1px solid #cfcfcf;
 }
 .tundra .dijitSelect .dijitArrowButton {
-  background: #8ac6b3;
+  background: #3BA749;
   font-size: 12px;
   color: #000;
   border: none;
@@ -3051,7 +3051,7 @@ background: transparent;
 .gwt-ScrollTable .headerTable td{
   color: #FFFFFF;
   border-right: 1px solid rgb(255, 255, 255);
-  background: #8ac6b3;
+  background: #3BA749;
 }
 .objectTree{
   border: 1px solid #cfcfcf;
@@ -3237,7 +3237,7 @@ button.adminButton {
 
 .reportArea #selectionFilterPanel{
   padding: 1px 3px 8px 3px;
-  background-color: #8ac6b3;
+  background-color: #3BA749;
   border-left: 1px #cfcfcf solid;
   border-right: 1px #cfcfcf solid;
   border-bottom: 1px #cfcfcf solid;
@@ -3308,7 +3308,7 @@ input[type='radio'] {
   padding: 4px 10px 4px 10px;
 }
 .gwt-ScrollTable .headerTable {
-  background: #8ac6b3;
+  background: #3BA749;
 }
 .gwt-ScrollTable {
   border: 1px solid #d3d3d3;
@@ -3321,7 +3321,7 @@ input[type='radio'] {
 }
 .IE .gwt-ScrollTable .headerTable td {
 background-image: none;
-background-color: #8ac6b3;
+background-color: #3BA749;
 }
 
 .gwt-ScrollTable .footerWrapper {
@@ -3333,7 +3333,7 @@ background-color: #8ac6b3;
   border-spacing: 2px;
   padding: 4px 10px 4px 10px;
   font-weight: normal;
-  background-color: #8ac6b3;
+  background-color: #3BA749;
   border-right: 1px solid #d3d3d3;
   border-bottom: 1px solid #d3d3d3;
 }
@@ -3401,6 +3401,17 @@ background-color: #8ac6b3;
   -webkit-transition: all 600ms;
 }
 
+.gwt-ScrollTable .dataTable tr.highlighted {
+	cursor: pointer;
+}
+
+.gwt-ScrollTable .dataTable tr.selected .gwt-HTML,
+.gwt-ScrollTable .dataTable tr.highlighted .gwt-HTML {
+  color: #fff;
+  -moz-transition: all 600ms;
+  -webkit-transition: all 600ms;
+}
+
 .gwt-ScrollTable .dataTable tr:hover {
   background: #777;
   color: #fff;
@@ -3436,7 +3447,7 @@ background-color: #8ac6b3;
 }
 
 .tree-item-custom-widget-drop-hover{
-  border: 1px solid #8ac6b3;
+  border: 1px solid #3BA749;
   background-color: #dcede7;
   -moz-transition: all 600ms;
   -webkit-transition: all 600ms;
@@ -3470,7 +3481,7 @@ background-color: #8ac6b3;
   border-spacing: 2px;
   padding: 8px 10px 10px 10px;
   font-weight: normal;
-  background: #8ac6b3;
+  background: #3BA749;
   border-right: 1px solid #d3d3d3;
   border-bottom: 1px solid #d3d3d3;
   color: #fff;
