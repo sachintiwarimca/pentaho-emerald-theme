@@ -208,7 +208,7 @@
   font-family: OpenSansRegular, sans-serif;
   font-size: 14px;
   line-height: 20px;
-  color: #263d36;
+  color: #333e49;
   background: transparent;
 }
 .bootstrap a {
@@ -2711,7 +2711,7 @@
 
 .bootstrap .btn.marketplace {
   /*background: #e9e9e9;
-  color: #263d36;*/  
+  color: #333e49;*/  
   font-size: 13px;
 }
 

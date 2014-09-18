@@ -54,7 +54,7 @@ html, body {
   font-family:  OpenSansRegular, sans-serif;
   font-size: 14px;
 	background: transparent;
-  color: #263d36;
+  color: #333e49;
 }
 
 a, a:visited {
@@ -88,6 +88,9 @@ fieldset, fieldset.xul-fieldset {
   padding: 5px;
   width: auto;
   border: 1px solid #cfcfcf;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 input[type='checkbox']{
@@ -189,9 +192,9 @@ margin-left: 0;
   display: block;
   height: 60px;
   background: #d3d3d3;
-  -webkit-box-shadow: 0 2px 3px rgba(50, 50, 50, 0.4);
-  -moz-box-shadow:    0 2px 3px rgba(50, 50, 50, 0.4);
-  box-shadow:         0 2px 3px rgba(50, 50, 50, 0.4);
+  -webkit-box-shadow: 0 3px 3px rgba(50, 50, 50, 0.2);
+  -moz-box-shadow:    0 3px 3px rgba(50, 50, 50, 0.2);
+  box-shadow:         0 3px 3px rgba(50, 50, 50, 0.2);
   padding: 24px 0 0 0;
 }
 
@@ -683,7 +686,7 @@ div#FilterPanel div.pentaho-toggle-button-down button{
   margin: 0;
   padding-bottom: 0;
   font-size: 16px;
-  color: #263d36;
+  color: #333e49;
   white-space: nowrap;
   font-family: OpenSansLight, Helvetica, Arial, sans-serif;
   padding: 0 8px;
@@ -723,7 +726,7 @@ border-top: 4px solid transparent;
   margin: 0;
   padding-bottom: 0;
   white-space: nowrap;
-  color: #263d36;
+  color: #333e49;
 }
 #props-deck-1 .pentaho-tabWidget{
   padding: 2px 8px;
@@ -1132,7 +1135,7 @@ border-top: 4px solid transparent;
   border-bottom: 1px solid #b5b5b5;
 }
 .xul-editPanel-title-label{
-  color: #263d36;
+  color: #333e49;
 }
 .xul-editPanel{
   border: 1px solid #cfcfcf;
@@ -1144,7 +1147,7 @@ border-top: 4px solid transparent;
 }
 .xul-editPanel .xul-editPanel-title-label,
 .xul-editPanel-title-label {
-  color: #263d36;
+  color: #333e49;
 }
 .dialog-content .xul-editPanel,
 .xul-editPanel {
@@ -1309,7 +1312,7 @@ input:focus {
 }
 
 .pentaho-titled-toolbar .pentaho-titled-toolbar-label {
-  color: #263d36;
+  color: #333e49;
   font-size: 13px;
 }
 
@@ -1456,15 +1459,15 @@ body.IE>table {
 }
 
 .pentaho-shadow-inset-glow {
-  /*  -moz-box-shadow: 1px 1px 5px 0 #333333, 0 0 1px 1px rgba(255, 255, 255, .6) inset;
-  -webkit-box-shadow: 1px 1px 5px 0 #333333, 0 0 1px 1px rgba(255, 255, 255, .6) inset;
-  box-shadow: 1px 1px 5px 0 #333333, 0 0 1px 1px rgba(255, 255, 255, .6) inset;*/
+  /*  -moz-box-shadow: 1px 1px 5px 0 #333e49, 0 0 1px 1px rgba(255, 255, 255, .6) inset;
+  -webkit-box-shadow: 1px 1px 5px 0 #333e49, 0 0 1px 1px rgba(255, 255, 255, .6) inset;
+  box-shadow: 1px 1px 5px 0 #333e49, 0 0 1px 1px rgba(255, 255, 255, .6) inset;*/
 }
 
 .pentaho-shadow-no-offset {
-  /*  -moz-box-shadow: 1px 1px 5px 0 #333333;
-  -webkit-box-shadow: 1px 1px 5px 0 #333333;
-  box-shadow: 1px 1px 5px 0 #333333;*/
+  /*  -moz-box-shadow: 1px 1px 5px 0 #333e49;
+  -webkit-box-shadow: 1px 1px 5px 0 #333e49;
+  box-shadow: 1px 1px 5px 0 #333e49;*/
 }
 
 .pentaho-rounded-panel2 {
@@ -1484,9 +1487,9 @@ body.IE>table {
   -webkit-border-radius: 5px;
   border-radius: 5px;
 
-  -moz-box-shadow: 1px 1px 5px 0 #333333, 0 0 1px 1px rgba(255, 255, 255, .6) inset;
-  -webkit-box-shadow: 1px 1px 5px 0 #333333, 0 0 1px 1px rgba(255, 255, 255, .6) inset;
-  box-shadow: 1px 1px 5px 0 #333333, 0 0 1px 1px rgba(255, 255, 255, .6) inset;*/
+  -moz-box-shadow: 1px 1px 5px 0 #333e49, 0 0 1px 1px rgba(255, 255, 255, .6) inset;
+  -webkit-box-shadow: 1px 1px 5px 0 #333e49, 0 0 1px 1px rgba(255, 255, 255, .6) inset;
+  box-shadow: 1px 1px 5px 0 #333e49, 0 0 1px 1px rgba(255, 255, 255, .6) inset;*/
 }
 
 .pentaho-rounded-panel-bottom-lr {
@@ -1496,9 +1499,9 @@ body.IE>table {
 }
 
 .pentaho-shadow-right-side {
-  /*  -moz-box-shadow: 2px 2px 4px 0 #333333;
-  -webkit-box-shadow: 2px 2px 4px 0 #333333;
-  box-shadow: 2px 2px 4px 0 #333333;*/
+  /*  -moz-box-shadow: 2px 2px 4px 0 #333e49;
+  -webkit-box-shadow: 2px 2px 4px 0 #333e49;
+  box-shadow: 2px 2px 4px 0 #333e49;*/
 }
 
 .pentaho-rounded-panel-right {
@@ -1563,9 +1566,9 @@ body.IE>table {
   cursor: pointer;
   cursor: hand;
   background: black; /* Old browsers */
-  -moz-box-shadow: 2px 2px 6px 1px #333333;
-  -webkit-box-shadow: 2px 2px 6px 1px #333333;
-  box-shadow: 2px 2px 6px 1px #333333;
+  -moz-box-shadow: 2px 2px 6px 1px #333e49;
+  -webkit-box-shadow: 2px 2px 6px 1px #333e49;
+  box-shadow: 2px 2px 6px 1px #333e49;
   padding: 4px 4px 4px 4px;
 }
 
@@ -1626,9 +1629,9 @@ body.IE>table {
   -webkit-border-radius: 5px;
   border-radius: 5px;
 
-  -moz-box-shadow: 1px 1px 5px 0 #333333, 0 0 1px 1px rgba(255, 255, 255, .6) inset;
-  -webkit-box-shadow: 1px 1px 5px 0 #333333, 0 0 1px 1px rgba(255, 255, 255, .6) inset;
-  box-shadow: 1px 1px 5px 0 #333333, 0 0 1px 1px rgba(255, 255, 255, .6) inset;
+  -moz-box-shadow: 1px 1px 5px 0 #333e49, 0 0 1px 1px rgba(255, 255, 255, .6) inset;
+  -webkit-box-shadow: 1px 1px 5px 0 #333e49, 0 0 1px 1px rgba(255, 255, 255, .6) inset;
+  box-shadow: 1px 1px 5px 0 #333e49, 0 0 1px 1px rgba(255, 255, 255, .6) inset;
 }
 
 .IE .pentaho-launcher-panel-shadowed {
@@ -2154,14 +2157,14 @@ body.IE>table {
   padding: 8px;
 
   background: #1a1a1a; /* Old browsers */
-  background: -moz-linear-gradient(top, #1a1a1a 0%, #333333 50%, #000000 51%, #000000 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #1a1a1a), color-stop(50%, #333333), color-stop(51%, #000000), color-stop(100%, #000000)); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, #1a1a1a 0%, #333333 50%, #000000 51%, #000000 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, #1a1a1a 0%, #333333 50%, #000000 51%, #000000 100%); /* Opera11.10+ */
-  background: -ms-linear-gradient(top, #1a1a1a 0%, #333333 50%, #000000 51%, #000000 100%); /* IE10+ */
+  background: -moz-linear-gradient(top, #1a1a1a 0%, #333e49 50%, #000000 51%, #000000 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #1a1a1a), color-stop(50%, #333e49), color-stop(51%, #000000), color-stop(100%, #000000)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #1a1a1a 0%, #333e49 50%, #000000 51%, #000000 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #1a1a1a 0%, #333e49 50%, #000000 51%, #000000 100%); /* Opera11.10+ */
+  background: -ms-linear-gradient(top, #1a1a1a 0%, #333e49 50%, #000000 51%, #000000 100%); /* IE10+ */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#FF777777', endColorstr = '#FF000000');
   zoom: 1;
-  background: linear-gradient(top, #1a1a1a 0%, #333333 50%, #000000 51%, #000000 100%); /* W3C */
+  background: linear-gradient(top, #1a1a1a 0%, #333e49 50%, #000000 51%, #000000 100%); /* W3C */
 }
 
 .pentaho-table-header-cell .label {
@@ -2259,7 +2262,7 @@ body.IE>table {
 }
 
 .splashtext {
-  color: #263d36;
+  color: #333e49;
    padding: 10px 0 0 0;
   vertical-align: top;
   line-height: 2em;
@@ -2563,11 +2566,11 @@ padding: 10px 0 10px 0;
   width: 250px;
 }
 #datasourcelbl .label .contrast-color{
-  color: #263d36;
+  color: #333e49;
 }
 
 .plabel{
-  color: #263d36;
+  color: #333e49;
 }
 
 #bottompanel{
@@ -3102,7 +3105,7 @@ background: transparent;
 .fileBrowserColumn .body .folder.selected > .element {
   font-weight: normal;
   background: #e9e9e9;
-  color: #263d36;
+  color: #333e49;
   -moz-transition: none;
   -webkit-transition: none;
 }
@@ -3110,14 +3113,14 @@ background: transparent;
 .fileBrowserColumn .body .folder.secondarySelected > .element {
   font-weight: normal;
   background: #e9e9e9;
-  color: #263d36;
+  color: #333e49;
   -moz-transition: none;
   -webkit-transition: none;
 }
 
 .fileBrowserColumn .body .file.selected {
   background: #e9e9e9;
-  color: #263d36;
+  color: #333e49;
   font-weight: normal;
   -moz-transition: none;
   -webkit-transition: none;
@@ -3340,6 +3343,12 @@ input[type='radio'] {
 .gwt-ScrollTable .headerTable td:hover {
   background-color: #777777;
 }
+
+.IE .gwt-ScrollTable .headerTable.disabled td:hover,
+.gwt-ScrollTable .headerTable.disabled td:hover {
+  background: #999999;
+}
+
 #contentLinkingAssignmentTable .gwt-ScrollTable .headerTable td,
 #propertiesPanelParameterAssignmentTable .gwt-ScrollTable .headerTable td {
   padding-left:   0;
@@ -3362,7 +3371,7 @@ input[type='radio'] {
 
 .gwt-ScrollTable .headerTable-disabled td {
   font-weight: normal;
-  color: #000000;
+  color: #333e49;
   border-right: 0;
 }
 
@@ -3370,13 +3379,21 @@ input[type='radio'] {
   background: white;
 }
 
+.gwt-ScrollTable .dataTable tbody {
+  border-bottom: 2px solid #e9e9e9;
+}
+
+.gwt-ScrollTable .dataTable .cellTableOddRow {
+  background-color: #fff;
+}
+
 .gwt-ScrollTable .dataTable-disabled tr {
   background: white;
 }
 
 .gwt-ScrollTable .dataTable td {
-  border-bottom: 1px solid #d3d3d3;
-  border-right: 1px solid #d3d3d3;
+  border-bottom: 1px solid #e9e9e9;
+  border-right: 1px solid #e9e9e9;
 }
 
 .gwt-ScrollTable .dataTable tr.hovering {
@@ -3397,9 +3414,10 @@ input[type='radio'] {
   -webkit-transition: none;
 }
 
-.gwt-ScrollTable .dataTable tr.selected {
-  background: #777;
-  color: #fff;
+.gwt-ScrollTable .dataTable tr.selected,
+.gwt-ScrollTable .dataTable tr.selected.highlighted {
+  background: #e9e9e9;
+  color: #333e49;
   -moz-transition: none;
   -webkit-transition: none;
 }
@@ -3409,8 +3427,14 @@ input[type='radio'] {
 }
 
 .gwt-ScrollTable .dataTable tr.selected .gwt-HTML,
+.gwt-ScrollTable .dataTable tr.selected.highlighted .gwt-HTML {
+  color: #333e49;
+  -moz-transition: none;
+  -webkit-transition: none;
+}
+
 .gwt-ScrollTable .dataTable tr.highlighted .gwt-HTML {
-  color: #fff;
+  color: #ffffff;
   -moz-transition: none;
   -webkit-transition: none;
 }
@@ -3697,7 +3721,7 @@ div.prompt-panel .pentaho-toggle-button-container {
 #csvDeckPanel .custom-list-textbox, #datasourceName, #uploadedFile, .dataTable .gwt-HTML{
   font-family: opensansRegular,  Helvetica, Arial, sans-serif;
   font-size: 14px;
-  color:#263d36;
+  color:#333e49;
 }
 
 .caption .captionIcon {
@@ -5029,13 +5053,13 @@ div.listbox .pentaho-listbox {
 .detail-title {
   font-family: OpenSansLight,  Helvetica, Arial, sans-serif;
   font-size: 22px;
-  color: #263d36;
+  color: #333e49;
 }
 
 .detail-description {
   padding: 0 0 20px 0;
   font-size: 14px;
-  color: #263d36;
+  color: #333e49;
 }
 
 #getting-started .detail-description {
@@ -5566,6 +5590,10 @@ treecontrol.tree-classic li .tree-selected {
 .custom-list-disabled .gwt-Label {
   font-size: 14px;
   margin-top: 0;
+  padding-left: 5px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .custom-list-disabled {
@@ -5682,14 +5710,14 @@ table.datePickerDays .datePickerWeekendLabel {
 /* ee navigation tabs @ home screen */
 
 .bootstrap body .nav-tabs > li > a {
-  color: #263d36;
+  color: #333e49;
 }
 
 .bootstrap body #launch-widget-row .nav-tabs > li > a:hover,
 .bootstrap body #launch-widget-row .nav-tabs > li > a:focus,
 .bootstrap body #getting-started .nav-tabs > li > a:hover,
 .bootstrap body #getting-started .nav-tabs > li > a:focus {
-  color: #263d36;
+  color: #333e49;
   background-color: #ffffff;
 }
 
@@ -5699,7 +5727,7 @@ table.datePickerDays .datePickerWeekendLabel {
 .bootstrap body #getting-started .nav-tabs > li.active > a, 
 .bootstrap body #getting-started .nav-tabs > li.active > a:hover, 
 .bootstrap body #getting-started .nav-tabs > li.active > a:focus {
-  color: #263d36;
+  color: #333e49;
   cursor: default;
   background-color: #ffffff;
   border-top: 4px solid #39a74a;
@@ -5778,4 +5806,44 @@ button.btn-large.btn-block {
   -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   -moz-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+
+/* manage datasources popup */
+button#restore-defaults-button {
+  margin: 10px 0 20px;
+}
+
+button#test-button {
+  width: 150px;
+  top: 10px;
+  position: relative;
+}
+
+textarea#pooling-description {
+  padding: 10px;
+  resize: none;
+}
+
+#pooling-group {
+  margin-bottom: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#deck-options-list.custom-list {
+  margin-right: 10px;
+}
+
+.hyperlink {
+  color: #39a74a;
+  text-decoration: none;
+}
+
+.hyperlink:hover {
+  text-decoration: underline;
+}
+
+#database-options-box input[type="checkbox"] {
+  width: auto !important;
 }
