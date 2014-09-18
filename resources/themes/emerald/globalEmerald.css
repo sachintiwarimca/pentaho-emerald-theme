@@ -3192,7 +3192,7 @@ background: transparent;
  border-top: solid 4px transparent;
  }
 .admin-perspective .pentaho-tabWidget-selected {
-  border-top: solid 4px #5d6672;
+  border-top: solid 4px #39a74a;
   border-left: solid 1px #cfcfcf;
   border-right: solid 1px #cfcfcf;
   -moz-border-radius-topleft: 1px;
@@ -5698,7 +5698,7 @@ table.datePickerDays .datePickerWeekendLabel {
   color: #263d36;
   cursor: default;
   background-color: #ffffff;
-  border-top: 4px solid #5d6672;
+  border-top: 4px solid #39a74a;
   border-bottom: 1px solid transparent;
   border-left: 0px solid #cfcfcf;
   border-right: 1px solid #cfcfcf;
