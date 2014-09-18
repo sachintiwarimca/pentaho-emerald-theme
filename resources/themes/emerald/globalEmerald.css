@@ -198,7 +198,7 @@ margin-left: 0;
   /* Standard button style. Should be applied to a <button> element to get full pseudo-styles. */
 .pentaho-button,
 .IE .pentaho-button:active {
-  background: #3BA749;
+  background: #999999;
   font-size: 12px !important;
   color: #fefefe;
   padding: 6px 12px;
@@ -225,12 +225,12 @@ margin-left: 0;
 .pentaho-button:active,
 .IE .pentaho-button:focus {
   color: #fff;
-  background-image: linear-gradient(bottom, #3BA749 49%, #42ba51 88%);
-  background-image: -o-linear-gradient(bottom, #3BA749 49%, #42ba51 88%);
-  background-image: -moz-linear-gradient(bottom, #3BA749 49%, #42ba51 88%);
-  background-image: -webkit-linear-gradient(bottom, #3BA749 49%, #42ba51 88%);
-  background-image: -ms-linear-gradient(bottom, #3BA749 49%, #42ba51 88%);
-  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.49, #3BA749), color-stop(0.88, #42ba51));
+  background-image: linear-gradient(bottom, #777777 49%, #909090 88%);
+  background-image: -o-linear-gradient(bottom, #777777 49%, #909090 88%);
+  background-image: -moz-linear-gradient(bottom, #777777 49%, #909090 88%);
+  background-image: -webkit-linear-gradient(bottom, #777777 49%, #909090 88%);
+  background-image: -ms-linear-gradient(bottom, #777777 49%, #909090 88%);
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.49, #777777), color-stop(0.88, #909090));
   outline: 0;
 }
 
@@ -1192,8 +1192,7 @@ input:focus {
 }
 
 .toolbar-button.toolbar-button-hovering {
-  border: 1px solid #3D8063;
-  background: rgba(255, 255, 255, .2);
+  border: 1px solid #777;
   cursor: pointer;
   margin: 0;
   width: 22px;
@@ -3102,23 +3101,23 @@ background: transparent;
 
 .fileBrowserColumn .body .folder.selected > .element {
   font-weight: normal;
-  background: #777;
-  color: #fff;
+  background: #e9e9e9;
+  color: #263d36;
   -moz-transition: all 600ms;
   -webkit-transition: all 600ms;
 }
 
 .fileBrowserColumn .body .folder.secondarySelected > .element {
   font-weight: normal;
-  background: #777;
-  color: #fff;
+  background: #e9e9e9;
+  color: #263d36;
   -moz-transition: all 600ms;
   -webkit-transition: all 600ms;
 }
 
 .fileBrowserColumn .body .file.selected {
-  background: #777;
-  color: #fff;
+  background: #e9e9e9;
+  color: #263d36;
   font-weight: normal;
   -moz-transition: all 600ms;
   -webkit-transition: all 600ms;
@@ -3260,7 +3259,7 @@ button.adminButton {
   border-spacing: 2px;
   padding: 10px 10px 12px 10px;
   font-weight: normal;
-  background-color: #39A34A;
+  background-color: #999;
   color: #fff;
 }
 .pentaho-dialog.schedule-recurrence-dialog {
@@ -5517,7 +5516,7 @@ treecontrol.tree-classic li .tree-selected {
 
 /*home buttons*/
 #buttonWrapper button.btn.btn-large.btn-block {
-  background: #3BA749;
+  background: #999999;
   color: #fefefe !important;
   text-shadow: none;
   font-family: OpenSansRegular, Helvetica, Arial, sans-serif;
@@ -5534,12 +5533,12 @@ treecontrol.tree-classic li .tree-selected {
 #buttonWrapper button.btn.btn-large.btn-block:focus,
 #buttonWrapper button.btn.btn-large.btn-block:active {
   color: #fff;
-  background-image: linear-gradient(bottom, #3BA749 49%, #42ba51 88%);
-  background-image: -o-linear-gradient(bottom, #3BA749 49%, #42ba51 88%);
-  background-image: -moz-linear-gradient(bottom, #3BA749 49%, #42ba51 88%);
-  background-image: -webkit-linear-gradient(bottom, #3BA749 49%, #42ba51 88%);
-  background-image: -ms-linear-gradient(bottom, #3BA749 49%, #42ba51 88%);
-  background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0.49, #3BA749), color-stop(0.88, #42ba51));
+  background-image: linear-gradient(bottom, #777777 49%, #909090 88%);
+  background-image: -o-linear-gradient(bottom, #777777 49%, #909090 88%);
+  background-image: -moz-linear-gradient(bottom, #777777 49%, #909090 88%);
+  background-image: -webkit-linear-gradient(bottom, #777777 49%, #909090 88%);
+  background-image: -ms-linear-gradient(bottom, #777777 49%, #909090 88%);
+  background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0.49, #777777), color-stop(0.88, #909090));
   outline: 0;
 }
 
@@ -5673,4 +5672,106 @@ table.datePickerDays .datePickerWeekendLabel {
 
 .gwt-DatePicker {
 	border: none
+}
+
+
+/* ee navigation tabs @ home screen */
+
+.bootstrap body .nav-tabs > li > a {
+  color: #263d36;
+}
+
+.bootstrap body #launch-widget-row .nav-tabs > li > a:hover,
+.bootstrap body #launch-widget-row .nav-tabs > li > a:focus,
+.bootstrap body #getting-started .nav-tabs > li > a:hover,
+.bootstrap body #getting-started .nav-tabs > li > a:focus {
+  color: #263d36;
+  background-color: #ffffff;
+}
+
+.bootstrap body #launch-widget-row .nav-tabs > li.active > a, 
+.bootstrap body #launch-widget-row .nav-tabs > li.active > a:hover, 
+.bootstrap body #launch-widget-row .nav-tabs > li.active > a:focus,
+.bootstrap body #getting-started .nav-tabs > li.active > a, 
+.bootstrap body #getting-started .nav-tabs > li.active > a:hover, 
+.bootstrap body #getting-started .nav-tabs > li.active > a:focus {
+  color: #263d36;
+  cursor: default;
+  background-color: #ffffff;
+  border-top: 4px solid #5d6672;
+  border-bottom: 1px solid transparent;
+  border-left: 0px solid #cfcfcf;
+  border-right: 1px solid #cfcfcf;
+  transition: all 300ms;
+  -moz-transition: all 300ms;
+  -webkit-transition: all 300ms;
+}
+
+.bootstrap body .btn {
+  background: #999999;
+  color: #fefefe;
+  text-shadow: none;
+  font-family: OpenSansRegular, Helvetica, Arial, sans-serif;
+  border: 0;
+  box-shadow: 0 0 5px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0 0 5px rgba(0,0,0,0.3);
+  -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+
+.bootstrap body .btn:hover,
+.bootstrap body .btn:focus,
+.bootstrap body .btn:active {
+  color: #fff;
+  background-image: linear-gradient(bottom, #777777 49%, #909090 88%);
+  background-image: -o-linear-gradient(bottom, #777777 49%, #909090 88%);
+  background-image: -moz-linear-gradient(bottom, #777777 49%, #909090 88%);
+  background-image: -webkit-linear-gradient(bottom, #777777 49%, #909090 88%);
+  background-image: -ms-linear-gradient(bottom, #777777 49%, #909090 88%);
+  background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0.49, #777777), color-stop(0.88, #909090));
+  outline: 0;
+}
+
+.bootstrap body .btn:hover:active {
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  -moz-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+
+button.btn-large.btn-block {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+#getting-started .pentaho-button {
+  background: #999999;
+  background: url("images/open_new_window.png") no-repeat right center, #999999; 
+  color: #fefefe !important;
+  text-shadow: none;
+  font-family: OpenSansRegular, Helvetica, Arial, sans-serif;
+  border: 0;
+  box-shadow: 0 0 5px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0 0 5px rgba(0,0,0,0.3);
+  -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.3);   
+  padding: 11px 19px;
+  font-size: 17.5px;
+  text-align: left;
+}
+
+#getting-started .pentaho-button:hover,
+#getting-started .pentaho-button:focus,
+#getting-started .pentaho-button:active {
+  color: #fff;
+  background: url("images/open_new_window.png") no-repeat right center, linear-gradient(bottom, #777777 49%, #909090 88%);
+  background: url("images/open_new_window.png") no-repeat right center, -o-linear-gradient(bottom, #777777 49%, #909090 88%);
+  background: url("images/open_new_window.png") no-repeat right center, -moz-linear-gradient(bottom, #777777 49%, #909090 88%);
+  background: url("images/open_new_window.png") no-repeat right center, -webkit-linear-gradient(bottom, #777777 49%, #909090 88%);
+  background: url("images/open_new_window.png") no-repeat right center, -ms-linear-gradient(bottom, #777777 49%, #909090 88%);
+  background: url("images/open_new_window.png") no-repeat right center, -webkit-gradient( linear, left bottom, left top, color-stop(0.49, #777777), color-stop(0.88, #909090));
+  outline: 0;
+}
+
+#getting-started .pentaho-button:hover:active {
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  -moz-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
 }
