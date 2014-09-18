@@ -205,7 +205,7 @@
 }
 .bootstrap body {
   margin: 0;
-  font-family: OpenSansRegular, sans-serif;
+  font-family: OpenSansLight, sans-serif;
   font-size: 14px;
   line-height: 20px;
   color: #333e49;
@@ -894,7 +894,7 @@
 .bootstrap button,
 .bootstrap select,
 .bootstrap textarea {
-  font-family: OpenSansRegular, sans-serif;
+  font-family: OpenSansLight, sans-serif;
 }
 .bootstrap label {
   display: block;
@@ -2810,6 +2810,7 @@
   transition: all 500ms;
   -moz-transition: all 500ms;
   -webkit-transition: all 500ms;
+  font-family: OpenSansRegular, sans-serif;
 }
 .bootstrap #fileBrowserButtons  .btn:hover,
 .bootstrap #fileBrowserButtons  .btn:focus,
@@ -4089,7 +4090,7 @@ height: auto;
 .bootstrap .navbar-search .search-query {
   padding: 4px 14px;
   margin-bottom: 0;
-  font-family: OpenSansRegular, sans-serif;
+  font-family: OpenSansLight, sans-serif;
   font-size: 13px;
   font-weight: normal;
   line-height: 1;

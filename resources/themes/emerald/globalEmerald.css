@@ -51,7 +51,7 @@
 html, body {
   margin: 0;
   padding: 0;
-  font-family:  OpenSansRegular, sans-serif;
+  font-family:  OpenSansLight, sans-serif;
   font-size: 14px;
 	background: transparent;
   color: #333e49;
@@ -115,6 +115,7 @@ input[type='text'], .bootstrap .pentaho-dialog input[type='text'] {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
+  font-family: OpenSansLight, sans-serif;
 }
 
 .pentaho-admin-panel input[type='text'] {
@@ -129,6 +130,7 @@ SELECT,
   padding: 0 0 0 4px;
   font-size: 13px;
   height: 29px;
+  font-family: OpenSansLight, sans-serif;
 }
 
 .gwt-ListBox,
@@ -205,7 +207,7 @@ margin-left: 0;
   font-size: 12px !important;
   color: #fefefe;
   padding: 6px 12px;
-  font-family: OpenSansRegular,  Helvetica, Arial, sans-serif;
+  font-family: OpenSansLight,  Helvetica, Arial, sans-serif;
   /* Standard form */
   border-radius: 4px;
   /* Firefox */
@@ -303,7 +305,7 @@ margin-left: 0;
   color: inherit;
   cursor: pointer;
   font-size: 12px;
-  font-family: OpenSansRegular, Sans;
+  font-family: OpenSansLight, sans-serif;
 }
 
 .pentaho-toggle-button-horizontal {
@@ -422,8 +424,11 @@ div#FilterPanel div.pentaho-toggle-button-down button{
   border: 1px solid #cfcfcf;
   z-index: 1050;
   position: absolute;
-  background: #f5f8f6;
+  background: #ffffff;
   padding: 8px 8px 0 8px;
+
+  -webkit-box-shadow: 0 0 3px rgba(0,0,0,.2);
+  box-shadow: 0 0 3px rgba(0,0,0,.2);
 
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -556,6 +561,7 @@ div#FilterPanel div.pentaho-toggle-button-down button{
   padding: 6px 0 2px 10px;
   border: 0 solid black;
   text-align: left;
+  font-family: OpenSansRegular, sans-serif;
 }
 
 .pentaho-dialog .Caption .dialog-close-button {
@@ -593,7 +599,7 @@ div#FilterPanel div.pentaho-toggle-button-down button{
 
 .dialog-content {
   border: 0;
-  background: #f5f8f6;
+  background: #ffffff;
 }
 
 .dialog-button-panel {
@@ -3467,7 +3473,7 @@ input[type='radio'] {
   -webkit-transition: none;
 }
 .tree-item-custom-widget-selected {
-  background-color: #777;
+  background-color: #777 !important;
   color: #fff;
   -moz-transition: none;
   -webkit-transition: none;
@@ -3542,7 +3548,7 @@ input[type='radio'] {
   border: 1px solid #d3d3d3;
   font-size: 14px;
   padding: 10px 10px 12px 10px;
-  font-family: OpenSansRegular,  Helvetica, Arial, sans-serif;
+  font-family: OpenSansLight,  Helvetica, Arial, sans-serif;
 }
 
 .soria .dojoxGridCellOver {
@@ -3719,7 +3725,7 @@ div.prompt-panel .pentaho-toggle-button-container {
 }
 
 #csvDeckPanel .custom-list-textbox, #datasourceName, #uploadedFile, .dataTable .gwt-HTML{
-  font-family: opensansRegular,  Helvetica, Arial, sans-serif;
+  font-family: opensansLight,  Helvetica, Arial, sans-serif;
   font-size: 14px;
   color:#333e49;
 }
@@ -3865,7 +3871,7 @@ div.prompt-panel .pentaho-toggle-button-container {
 
 .login-label {
   color: #777;
-  font-family: 'OpenSansRegular', Helvetica, Arial, sans-serif;
+  font-family: 'OpenSansLight', Helvetica, Arial, sans-serif;
 }
 .login-value{
  font-family: 'OpenSansLight', Helvetica, Arial, sans-serif;
@@ -5547,7 +5553,7 @@ treecontrol.tree-classic li .tree-selected {
   background: #999999;
   color: #fefefe !important;
   text-shadow: none;
-  font-family: OpenSansRegular, Helvetica, Arial, sans-serif;
+  font-family: OpenSansLight, Helvetica, Arial, sans-serif;
   border: 0;
   margin-bottom: 20px;
 
@@ -5743,7 +5749,7 @@ table.datePickerDays .datePickerWeekendLabel {
   background: #999999;
   color: #fefefe;
   text-shadow: none;
-  font-family: OpenSansRegular, Helvetica, Arial, sans-serif;
+  font-family: OpenSansLight, Helvetica, Arial, sans-serif;
   border: 0;
   box-shadow: 0 0 5px rgba(0,0,0,0.3);
   -moz-box-shadow: 0 0 5px rgba(0,0,0,0.3);
@@ -5779,7 +5785,7 @@ button.btn-large.btn-block {
   background: url("images/open_new_window.png") no-repeat right center, #999999; 
   color: #fefefe !important;
   text-shadow: none;
-  font-family: OpenSansRegular, Helvetica, Arial, sans-serif;
+  font-family: OpenSansLight, Helvetica, Arial, sans-serif;
   border: 0;
   box-shadow: 0 0 5px rgba(0,0,0,0.3);
   -moz-box-shadow: 0 0 5px rgba(0,0,0,0.3);
@@ -5822,6 +5828,7 @@ button#test-button {
 textarea#pooling-description {
   padding: 10px;
   resize: none;
+  font-family: OpenSansLight, Helvetica, Arial, sans-serif;
 }
 
 #pooling-group {
@@ -5846,4 +5853,8 @@ textarea#pooling-description {
 
 #database-options-box input[type="checkbox"] {
   width: auto !important;
+}
+
+.checkbox label {
+  font-family: OpenSansLight, Helvetica, Arial, sans-serif;
 }
