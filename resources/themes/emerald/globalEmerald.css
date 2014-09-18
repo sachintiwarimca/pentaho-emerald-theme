@@ -3103,30 +3103,30 @@ background: transparent;
   font-weight: normal;
   background: #e9e9e9;
   color: #263d36;
-  -moz-transition: all 600ms;
-  -webkit-transition: all 600ms;
+  -moz-transition: none;
+  -webkit-transition: none;
 }
 
 .fileBrowserColumn .body .folder.secondarySelected > .element {
   font-weight: normal;
   background: #e9e9e9;
   color: #263d36;
-  -moz-transition: all 600ms;
-  -webkit-transition: all 600ms;
+  -moz-transition: none;
+  -webkit-transition: none;
 }
 
 .fileBrowserColumn .body .file.selected {
   background: #e9e9e9;
   color: #263d36;
   font-weight: normal;
-  -moz-transition: all 600ms;
-  -webkit-transition: all 600ms;
+  -moz-transition: none;
+  -webkit-transition: none;
 }
 
 .fileBrowserColumn .body .file.selected {
   font-weight: normal;
-  -moz-transition: all 600ms;
-  -webkit-transition: all 600ms;
+  -moz-transition: none;
+  -webkit-transition: none;
 }
 #fileBrowserButtons{
   width: 250px;
@@ -3307,7 +3307,7 @@ input[type='radio'] {
   padding: 4px 10px 4px 10px;
 }
 .gwt-ScrollTable .headerTable {
-  background: #3BA749;
+  background: #999999;
 }
 .gwt-ScrollTable {
   border: 1px solid #d3d3d3;
@@ -3319,8 +3319,8 @@ input[type='radio'] {
   padding-right: 0;
 }
 .IE .gwt-ScrollTable .headerTable td {
-background-image: none;
-background-color: #3BA749;
+  background-image: none;
+  background-color: #999999;
 }
 
 .gwt-ScrollTable .footerWrapper {
@@ -3332,9 +3332,13 @@ background-color: #3BA749;
   border-spacing: 2px;
   padding: 4px 10px 4px 10px;
   font-weight: normal;
-  background-color: #3BA749;
+  background-color: #999999;
   border-right: 1px solid #d3d3d3;
   border-bottom: 1px solid #d3d3d3;
+}
+.IE .gwt-ScrollTable .headerTable td:hover,
+.gwt-ScrollTable .headerTable td:hover {
+  background-color: #777777;
 }
 #contentLinkingAssignmentTable .gwt-ScrollTable .headerTable td,
 #propertiesPanelParameterAssignmentTable .gwt-ScrollTable .headerTable td {
@@ -3377,27 +3381,27 @@ background-color: #3BA749;
 
 .gwt-ScrollTable .dataTable tr.hovering {
   background: #dcede7;
-  -moz-transition: all 600ms;
-  -webkit-transition: all 600ms;
+  -moz-transition: none;
+  -webkit-transition: none;
 }
 
 .gwt-ScrollTable .dataTable-disabled tr.hovering {
   background: #dcede7;
-  -moz-transition: all 600ms;
-  -webkit-transition: all 600ms;
+  -moz-transition: none;
+  -webkit-transition: none;
 }
 
 .gwt-ScrollTable .dataTable td.hovering {
   background: #dcede7;
-  -moz-transition: all 600ms;
-  -webkit-transition: all 600ms;
+  -moz-transition: none;
+  -webkit-transition: none;
 }
 
 .gwt-ScrollTable .dataTable tr.selected {
   background: #777;
   color: #fff;
-  -moz-transition: all 600ms;
-  -webkit-transition: all 600ms;
+  -moz-transition: none;
+  -webkit-transition: none;
 }
 
 .gwt-ScrollTable .dataTable tr.highlighted {
@@ -3407,15 +3411,15 @@ background-color: #3BA749;
 .gwt-ScrollTable .dataTable tr.selected .gwt-HTML,
 .gwt-ScrollTable .dataTable tr.highlighted .gwt-HTML {
   color: #fff;
-  -moz-transition: all 600ms;
-  -webkit-transition: all 600ms;
+  -moz-transition: none;
+  -webkit-transition: none;
 }
 
 .gwt-ScrollTable .dataTable tr:hover {
   background: #777;
   color: #fff;
-  -moz-transition: all 600ms;
-  -webkit-transition: all 600ms;
+  -moz-transition: none;
+  -webkit-transition: none;
 }
 
 .gwt-ScrollTable .pagingOptions {
@@ -3435,21 +3439,21 @@ background-color: #3BA749;
 .gwt-Tree .gwt-TreeItem-selected{
   background-color: #777;
   color: #fff;
-  -moz-transition: all 600ms;
-  -webkit-transition: all 600ms;
+  -moz-transition: none;
+  -webkit-transition: none;
 }
 .tree-item-custom-widget-selected {
   background-color: #777;
   color: #fff;
-  -moz-transition: all 600ms;
-  -webkit-transition: all 600ms;
+  -moz-transition: none;
+  -webkit-transition: none;
 }
 
 .tree-item-custom-widget-drop-hover{
   border: 1px solid #3BA749;
   background-color: #dcede7;
-  -moz-transition: all 600ms;
-  -webkit-transition: all 600ms;
+  -moz-transition: none;
+  -webkit-transition: none;
 }
 .tree-drop-indicator{
   height: 1px;
@@ -3497,15 +3501,15 @@ background-color: #3BA749;
 .soria .dojoxGridRowOver .dojoxGridCell {
   background-color: #dcede7;
   color:#000;
-  -moz-transition: all 600ms;
-  -webkit-transition: all 600ms;
+  -moz-transition: none;
+  -webkit-transition: none;
 }
 
 .soria .dojoxGridRowSelected {
   background-color:  #777 !important;
   color: #fff;
-  -moz-transition: all 600ms;
-  -webkit-transition: all 600ms;
+  -moz-transition: none;
+  -webkit-transition: none;
 }
 
   /* cells */
