@@ -51,6 +51,21 @@
   width: 100%;
 }
 
+.schedulerPerspective-wrapper table.toolbar-button {
+  width: 28px;
+  height: 28px;
+  position: relative;
+  margin-bottom: 5px;
+}
+
+.schedulerPerspective-wrapper table.toolbar-button img {
+  position: absolute;
+  left: 50%;
+  margin-left: -11px;
+  top: 50%;
+  margin-top: -11px;
+}
+
 .admin-perspective {
   padding-top: 40px;
   padding-left: 40px;
