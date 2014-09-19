@@ -1482,6 +1482,7 @@ td.subMenuIcon-selected:after {
   width: 100%;
   margin-top: 5px;
   margin-bottom: 5px;
+  margin-left: 0;
 }
 
 .mainToolbar-Wrapper .toolbar-button {
