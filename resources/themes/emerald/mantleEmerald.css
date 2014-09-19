@@ -1023,7 +1023,7 @@ a:active, a:hover {
 }
 
 .custom-dropdown-popup .gwt-MenuBar-vertical .gwt-MenuItem-selected:hover {
-  background-color: #777 !important;
+  background-color: #C6C6C6 !important;
   color: #fff !important;
 }
 
@@ -1109,23 +1109,23 @@ a:active, a:hover {
 
 .gwt-MenuBar-vertical tr:hover .gwt-MenuItem-selected, 
 .gwt-MenuBar-vertical tr:hover .subMenuIcon-selected {
-    background-color: #777;
-    color: #fff;
+    background-color: #C6C6C6;
+    color: #FFF;
 }
 
 .gwt-MenuBar-vertical .gwt-MenuItem-selected:hover {
-    background-color: #777;
-    color: #fff;
+    background-color: #C6C6C6;
+    color: #FFF;
 }
 
 .gwt-MenuBar-vertical .subMenuIcon-selected {
-    background-color: #777;
-    color: #fff;
+    background-color: #C6C6C6;
+    color: #FFF;
 }
 
 .gwt-MenuBar-vertical .gwt-MenuItem-selected {
-  background-color: #777;
-  color: #ffffff;
+  background-color: #C6C6C6;
+  color: #FFF;
   vertical-align: bottom;
 }
 
@@ -1141,13 +1141,13 @@ a:active, a:hover {
 }
 
 .gwt-MenuBar-vertical .gwt-MenuItem-checkbox-checked-selected:hover {
-    background-color: #777;
-    color: #fff;
+    background-color: #C6C6C6;
+    color: #FFF;
 }
 
 .gwt-MenuBar-vertical .gwt-MenuItem-checkbox-unchecked-selected:hover {
-    background-color: #777;
-    color: #fff;
+    background-color: #C6C6C6;
+    color: #FFF;
 }
 
 .gwt-MenuBar-horizontal .gwt-MenuItem-selected:hover {
