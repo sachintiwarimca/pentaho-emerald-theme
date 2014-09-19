@@ -1128,12 +1128,6 @@ border-top: 4px solid transparent;
   border-bottom-style: solid;
   border-bottom-color: #cfcfcf;
 }
-.IE .toolbar, .IE table.toolbar {
-  background-color: #fff;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-bottom-color: #cfcfcf;
-}
 
 .xul-editPanel-title{
   background-color: #f1f1f1;
@@ -1209,11 +1203,6 @@ input:focus {
   outline: none;
 }
 
-.IE .toolbar-button.toolbar-button-hovering {
-  background: none;
-  border: 1px solid #dcede7;
-}
-
 .toolbar-toggle-button {
   border: 1px solid rgba(0, 0, 0, 0);
   margin: 0;
@@ -1236,18 +1225,15 @@ input:focus {
 }
 
 .IE .toolbar-toggle-button-down {
-  border: 1px solid #3d8063; !important; /* override the transparent value set in toolbar-toggle-button*/
+  border: 1px solid transparent;
 }
 
 .toolbar-toggle-button-down-hovering {
-  border: 1px solid #dcede7;
-  background: rgba(255, 255, 255, .2);
-  margin: 0;
-  cursor: pointer;
+  border: 1px solid #777;
 }
 
 .IE .toolbar-toggle-button-down-hovering {
-  border: 1px solid #dcede7;!important;
+  border: 1px solid #777 !important;
   background: none;
   margin: 0;
   cursor: pointer;
@@ -1262,7 +1248,7 @@ input:focus {
 
 .IE .toolbar-toggle-button-hovering {
   background: none;
-  border: 1px solid #dcede7;
+  border: 1px solid #777;
   cursor: pointer;
   margin: 0;
 }
