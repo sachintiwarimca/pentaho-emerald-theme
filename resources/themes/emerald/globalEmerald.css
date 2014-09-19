@@ -685,6 +685,10 @@ div#FilterPanel div.pentaho-toggle-button-down button{
   border-right: solid 1px transparent;
 }
 
+.IE .dialog-content .pentaho-tabWidget {
+  padding: 8px 8px;
+}
+
 .IE .pentaho-tabWidget {
   /* background: url('images/tab_off.png') repeat-x;*/
 }
@@ -1389,7 +1393,7 @@ body.IE>table {
   position: absolute;
   top: 0;
   bottom: 0;
-  left: 0;
+  left: 30px;
   right: 0;
 }
   /* END IE FIXES Admin View */
@@ -3174,9 +3178,12 @@ background: transparent;
 }
 .admin-perspective .pentaho-tab-bar {
   background-image:none;
-	height: 37px;
-	z-index: 100;
-	position: relative;
+  height: 37px;
+  z-index: 100;
+  position: relative;
+}
+.IE .admin-perspective .pentaho-tab-bar {
+  height: 33px;
 }
 .admin-perspective .pentaho-tab-panel {
   background: url('images/bg_admin_tab_panel.png') repeat-x 0 3px;
@@ -3260,8 +3267,11 @@ button.adminButton {
 	padding-bottom: 8px;
 }
 .scheduleEditor .timeZonePicker {
-	position: relative;
+  position: relative;
   top: -5px;
+}
+.IE .scheduleEditor .timeZonePicker {
+  top: 0;
 }
 .scheduleEditor .gwt-Label {
 	margin-right: 10px;
