@@ -1483,3 +1483,26 @@ td.subMenuIcon-selected:after {
   margin-top: 5px;
   margin-bottom: 5px;
 }
+
+.mainToolbar-Wrapper .toolbar-button {
+  width: 38px;
+  height: 38px;
+  position: relative;
+}
+
+.mainToolbar-Wrapper .toolbar-toggle-button-disabled,
+.mainToolbar-Wrapper .toolbar-button-disabled {
+  width: 38px;
+  height: 38px;
+  position: relative;
+  opacity: 0.4;
+}
+
+.mainToolbar-Wrapper .toolbar-button img,
+.mainToolbar-Wrapper .toolbar-toggle-button img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -16px;
+  margin-left: -16px;
+}
