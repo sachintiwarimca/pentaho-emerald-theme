@@ -54,7 +54,7 @@ html, body {
   font-family:  OpenSansLight, sans-serif;
   font-size: 14px;
 	background: transparent;
-  color: #333e49;
+  color: #333333;
 }
 
 a, a:visited {
@@ -691,7 +691,7 @@ div#FilterPanel div.pentaho-toggle-button-down button{
   margin: 0;
   padding-bottom: 0;
   font-size: 16px;
-  color: #333e49;
+  color: #333333;
   white-space: nowrap;
   font-family: OpenSansLight, Helvetica, Arial, sans-serif;
   padding: 0 8px;
@@ -731,7 +731,7 @@ border-top: 4px solid transparent;
   margin: 0;
   padding-bottom: 0;
   white-space: nowrap;
-  color: #333e49;
+  color: #333333;
 }
 #props-deck-1 .pentaho-tabWidget{
   padding: 2px 8px;
@@ -1137,7 +1137,7 @@ border-top: 4px solid transparent;
   border-bottom: 1px solid #b5b5b5;
 }
 .xul-editPanel-title-label{
-  color: #333e49;
+  color: #333333;
 }
 .xul-editPanel{
   border: 1px solid #cfcfcf;
@@ -1149,7 +1149,7 @@ border-top: 4px solid transparent;
 }
 .xul-editPanel .xul-editPanel-title-label,
 .xul-editPanel-title-label {
-  color: #333e49;
+  color: #333333;
 }
 .dialog-content .xul-editPanel,
 .xul-editPanel {
@@ -1314,7 +1314,7 @@ input:focus {
 }
 
 .pentaho-titled-toolbar .pentaho-titled-toolbar-label {
-  color: #333e49;
+  color: #333333;
   font-size: 13px;
 }
 
@@ -1461,15 +1461,15 @@ body.IE>table {
 }
 
 .pentaho-shadow-inset-glow {
-  /*  -moz-box-shadow: 1px 1px 5px 0 #333e49, 0 0 1px 1px rgba(255, 255, 255, .6) inset;
-  -webkit-box-shadow: 1px 1px 5px 0 #333e49, 0 0 1px 1px rgba(255, 255, 255, .6) inset;
-  box-shadow: 1px 1px 5px 0 #333e49, 0 0 1px 1px rgba(255, 255, 255, .6) inset;*/
+  /*  -moz-box-shadow: 1px 1px 5px 0 #333333, 0 0 1px 1px rgba(255, 255, 255, .6) inset;
+  -webkit-box-shadow: 1px 1px 5px 0 #333333, 0 0 1px 1px rgba(255, 255, 255, .6) inset;
+  box-shadow: 1px 1px 5px 0 #333333, 0 0 1px 1px rgba(255, 255, 255, .6) inset;*/
 }
 
 .pentaho-shadow-no-offset {
-  /*  -moz-box-shadow: 1px 1px 5px 0 #333e49;
-  -webkit-box-shadow: 1px 1px 5px 0 #333e49;
-  box-shadow: 1px 1px 5px 0 #333e49;*/
+  /*  -moz-box-shadow: 1px 1px 5px 0 #333333;
+  -webkit-box-shadow: 1px 1px 5px 0 #333333;
+  box-shadow: 1px 1px 5px 0 #333333;*/
 }
 
 .pentaho-rounded-panel2 {
@@ -1489,9 +1489,9 @@ body.IE>table {
   -webkit-border-radius: 5px;
   border-radius: 5px;
 
-  -moz-box-shadow: 1px 1px 5px 0 #333e49, 0 0 1px 1px rgba(255, 255, 255, .6) inset;
-  -webkit-box-shadow: 1px 1px 5px 0 #333e49, 0 0 1px 1px rgba(255, 255, 255, .6) inset;
-  box-shadow: 1px 1px 5px 0 #333e49, 0 0 1px 1px rgba(255, 255, 255, .6) inset;*/
+  -moz-box-shadow: 1px 1px 5px 0 #333333, 0 0 1px 1px rgba(255, 255, 255, .6) inset;
+  -webkit-box-shadow: 1px 1px 5px 0 #333333, 0 0 1px 1px rgba(255, 255, 255, .6) inset;
+  box-shadow: 1px 1px 5px 0 #333333, 0 0 1px 1px rgba(255, 255, 255, .6) inset;*/
 }
 
 .pentaho-rounded-panel-bottom-lr {
@@ -1501,9 +1501,9 @@ body.IE>table {
 }
 
 .pentaho-shadow-right-side {
-  /*  -moz-box-shadow: 2px 2px 4px 0 #333e49;
-  -webkit-box-shadow: 2px 2px 4px 0 #333e49;
-  box-shadow: 2px 2px 4px 0 #333e49;*/
+  /*  -moz-box-shadow: 2px 2px 4px 0 #333333;
+  -webkit-box-shadow: 2px 2px 4px 0 #333333;
+  box-shadow: 2px 2px 4px 0 #333333;*/
 }
 
 .pentaho-rounded-panel-right {
@@ -1568,9 +1568,9 @@ body.IE>table {
   cursor: pointer;
   cursor: hand;
   background: black; /* Old browsers */
-  -moz-box-shadow: 2px 2px 6px 1px #333e49;
-  -webkit-box-shadow: 2px 2px 6px 1px #333e49;
-  box-shadow: 2px 2px 6px 1px #333e49;
+  -moz-box-shadow: 2px 2px 6px 1px #333333;
+  -webkit-box-shadow: 2px 2px 6px 1px #333333;
+  box-shadow: 2px 2px 6px 1px #333333;
   padding: 4px 4px 4px 4px;
 }
 
@@ -1631,9 +1631,9 @@ body.IE>table {
   -webkit-border-radius: 5px;
   border-radius: 5px;
 
-  -moz-box-shadow: 1px 1px 5px 0 #333e49, 0 0 1px 1px rgba(255, 255, 255, .6) inset;
-  -webkit-box-shadow: 1px 1px 5px 0 #333e49, 0 0 1px 1px rgba(255, 255, 255, .6) inset;
-  box-shadow: 1px 1px 5px 0 #333e49, 0 0 1px 1px rgba(255, 255, 255, .6) inset;
+  -moz-box-shadow: 1px 1px 5px 0 #333333, 0 0 1px 1px rgba(255, 255, 255, .6) inset;
+  -webkit-box-shadow: 1px 1px 5px 0 #333333, 0 0 1px 1px rgba(255, 255, 255, .6) inset;
+  box-shadow: 1px 1px 5px 0 #333333, 0 0 1px 1px rgba(255, 255, 255, .6) inset;
 }
 
 .IE .pentaho-launcher-panel-shadowed {
@@ -1691,7 +1691,7 @@ body.IE>table {
 }
 
 .pentaho-listitem-selected {
-  background-color: #777;
+  background-color: #C6C6C6;
   color: #fff;
   cursor: default;
   outline: none;
@@ -1704,7 +1704,7 @@ body.IE>table {
 }
 
 .pentaho-listitem-hover {
-  background-color: #777;
+  background-color: #C6C6C6;
   color: #fff;
   cursor: default;
 }
@@ -2159,14 +2159,14 @@ body.IE>table {
   padding: 8px;
 
   background: #1a1a1a; /* Old browsers */
-  background: -moz-linear-gradient(top, #1a1a1a 0%, #333e49 50%, #000000 51%, #000000 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #1a1a1a), color-stop(50%, #333e49), color-stop(51%, #000000), color-stop(100%, #000000)); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, #1a1a1a 0%, #333e49 50%, #000000 51%, #000000 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, #1a1a1a 0%, #333e49 50%, #000000 51%, #000000 100%); /* Opera11.10+ */
-  background: -ms-linear-gradient(top, #1a1a1a 0%, #333e49 50%, #000000 51%, #000000 100%); /* IE10+ */
+  background: -moz-linear-gradient(top, #1a1a1a 0%, #333333 50%, #000000 51%, #000000 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #1a1a1a), color-stop(50%, #333333), color-stop(51%, #000000), color-stop(100%, #000000)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #1a1a1a 0%, #333333 50%, #000000 51%, #000000 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #1a1a1a 0%, #333333 50%, #000000 51%, #000000 100%); /* Opera11.10+ */
+  background: -ms-linear-gradient(top, #1a1a1a 0%, #333333 50%, #000000 51%, #000000 100%); /* IE10+ */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#FF777777', endColorstr = '#FF000000');
   zoom: 1;
-  background: linear-gradient(top, #1a1a1a 0%, #333e49 50%, #000000 51%, #000000 100%); /* W3C */
+  background: linear-gradient(top, #1a1a1a 0%, #333333 50%, #000000 51%, #000000 100%); /* W3C */
 }
 
 .pentaho-table-header-cell .label {
@@ -2264,7 +2264,7 @@ body.IE>table {
 }
 
 .splashtext {
-  color: #333e49;
+  color: #333333;
    padding: 10px 0 0 0;
   vertical-align: top;
   line-height: 2em;
@@ -2568,11 +2568,11 @@ padding: 10px 0 10px 0;
   width: 250px;
 }
 #datasourcelbl .label .contrast-color{
-  color: #333e49;
+  color: #333333;
 }
 
 .plabel{
-  color: #333e49;
+  color: #333333;
 }
 
 #bottompanel{
@@ -2649,7 +2649,7 @@ padding: 10px 0 10px 0;
 }
 
 .waitPopup_msg {
-  color: #333e49;
+  color: #333333;
   font-weight: normal;
   font-size: 14px;
   white-space: normal;
@@ -3107,7 +3107,7 @@ background: transparent;
 .fileBrowserColumn .body .folder.selected > .element {
   font-weight: normal;
   background: #e9e9e9;
-  color: #333e49;
+  color: #333333;
   -moz-transition: none;
   -webkit-transition: none;
 }
@@ -3115,14 +3115,14 @@ background: transparent;
 .fileBrowserColumn .body .folder.secondarySelected > .element {
   font-weight: normal;
   background: #e9e9e9;
-  color: #333e49;
+  color: #333333;
   -moz-transition: none;
   -webkit-transition: none;
 }
 
 .fileBrowserColumn .body .file.selected {
   background: #e9e9e9;
-  color: #333e49;
+  color: #333333;
   font-weight: normal;
   -moz-transition: none;
   -webkit-transition: none;
@@ -3374,7 +3374,7 @@ input[type='radio'] {
 
 .gwt-ScrollTable .headerTable-disabled td {
   font-weight: normal;
-  color: #333e49;
+  color: #333333;
   border-right: 0;
 }
 
@@ -3420,7 +3420,7 @@ input[type='radio'] {
 .gwt-ScrollTable .dataTable tr.selected,
 .gwt-ScrollTable .dataTable tr.selected.highlighted {
   background: #e9e9e9;
-  color: #333e49;
+  color: #333333;
   -moz-transition: none;
   -webkit-transition: none;
 }
@@ -3431,7 +3431,7 @@ input[type='radio'] {
 
 .gwt-ScrollTable .dataTable tr.selected .gwt-HTML,
 .gwt-ScrollTable .dataTable tr.selected.highlighted .gwt-HTML {
-  color: #333e49;
+  color: #333333;
   -moz-transition: none;
   -webkit-transition: none;
 }
@@ -3443,7 +3443,7 @@ input[type='radio'] {
 }
 
 .gwt-ScrollTable .dataTable tr:hover {
-  background: #777;
+  background: #C6C6C6;
   color: #fff;
   -moz-transition: none;
   -webkit-transition: none;
@@ -3464,13 +3464,13 @@ input[type='radio'] {
   border: 3px solid #d3d3d3;
 }
 .gwt-Tree .gwt-TreeItem-selected{
-  background-color: #777;
+  background-color: #C6C6C6;
   color: #fff;
   -moz-transition: none;
   -webkit-transition: none;
 }
 .tree-item-custom-widget-selected {
-  background-color: #777 !important;
+  background-color: #C6C6C6 !important;
   color: #fff;
   -moz-transition: none;
   -webkit-transition: none;
@@ -3533,7 +3533,7 @@ input[type='radio'] {
 }
 
 .soria .dojoxGridRowSelected {
-  background-color:  #777 !important;
+  background-color:  #C6C6C6 !important;
   color: #fff;
   -moz-transition: none;
   -webkit-transition: none;
@@ -3724,7 +3724,7 @@ div.prompt-panel .pentaho-toggle-button-container {
 #csvDeckPanel .custom-list-textbox, #datasourceName, #uploadedFile, .dataTable .gwt-HTML{
   font-family: opensansLight,  Helvetica, Arial, sans-serif;
   font-size: 14px;
-  color:#333e49;
+  color:#333333;
 }
 
 .caption .captionIcon {
@@ -3966,22 +3966,22 @@ div.prompt-panel .pentaho-toggle-button-container {
 }
 
 .custom-list-item-hover{
-  background-color: #777;
+  background-color: #C6C6C6;
   color: #fff;
 }
 .custom-list-item-selected{
-  background-color: #777;
-  color: #fff;
+  background-color: #E9E9E9;
+  color: #333;
 }
 .objectlist-selected a:hover {
   color: black;
-  background-color: #777;
-  color: #fff;
+  background-color: #E9E9E9;
+  color: #333;
 }
 .objectlist-selected a {
   cursor: pointer;
-  background-color:  #777;
-  color: #fff;
+  background-color:  #E9E9E9;
+  color: #333;
   padding-left: 3px;
   color: black;
   vertical-align: top;
@@ -5056,13 +5056,13 @@ div.listbox .pentaho-listbox {
 .detail-title {
   font-family: OpenSansLight,  Helvetica, Arial, sans-serif;
   font-size: 22px;
-  color: #333e49;
+  color: #333333;
 }
 
 .detail-description {
   padding: 0 0 20px 0;
   font-size: 14px;
-  color: #333e49;
+  color: #333333;
 }
 
 #getting-started .detail-description {
@@ -5450,7 +5450,7 @@ treecontrol.tree-classic li.tree-normal i {
 
 [treecontrol].tree-classic li .tree-selected,
 treecontrol.tree-classic li .tree-selected {
-    background-color: #777;
+    background-color: #C6C6C6;
     color: #fff;
 }
 
@@ -5531,7 +5531,7 @@ treecontrol.tree-classic li .tree-selected {
   height: auto;
   padding-left: 29px;
   padding-top: 0;
-  color: #333e49;
+  color: #333333;
   font-size: 13px;
   background-color: #fee7fd;
 }
@@ -5676,20 +5676,20 @@ table.datePickerDays .datePickerDayIsWeekend {
 }
 
 table.datePickerDays .datePickerDayIsToday {
-	border: 1px solid #777777;
+	border: 1px solid #C6C6C6;
 }
 
 table.datePickerDays .datePickerDayIsValue,
 table.datePickerDays .datePickerDayIsValueAndHighlighted {
-	background: #777777;
+	background: #C6C6C6;
 	color: white;
-	border: 1px solid #777777;
+	border: 1px solid #C6C6C6;
 }
 
 table.datePickerDays .datePickerDayIsHighlighted {
-	background: #777777;
+	background: #C6C6C6;
 	color: white;
-	border: 1px solid #777777;
+	border: 1px solid #C6C6C6;
 }
 
 table.datePickerDays .datePickerWeekdayLabel, 
@@ -5713,14 +5713,14 @@ table.datePickerDays .datePickerWeekendLabel {
 /* ee navigation tabs @ home screen */
 
 .bootstrap body .nav-tabs > li > a {
-  color: #333e49;
+  color: #333333;
 }
 
 .bootstrap body #launch-widget-row .nav-tabs > li > a:hover,
 .bootstrap body #launch-widget-row .nav-tabs > li > a:focus,
 .bootstrap body #getting-started .nav-tabs > li > a:hover,
 .bootstrap body #getting-started .nav-tabs > li > a:focus {
-  color: #333e49;
+  color: #333333;
   background-color: #ffffff;
 }
 
@@ -5730,7 +5730,7 @@ table.datePickerDays .datePickerWeekendLabel {
 .bootstrap body #getting-started .nav-tabs > li.active > a, 
 .bootstrap body #getting-started .nav-tabs > li.active > a:hover, 
 .bootstrap body #getting-started .nav-tabs > li.active > a:focus {
-  color: #333e49;
+  color: #333333;
   cursor: default;
   background-color: #ffffff;
   border-top: 4px solid #39a74a;
