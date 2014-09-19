@@ -191,12 +191,14 @@ margin-left: 0;
 }
 #pucHeader {
   display: block;
-  height: 60px;
+  height: 50px;
   background: #d3d3d3;
   -webkit-box-shadow: 0 3px 3px rgba(50, 50, 50, 0.2);
   -moz-box-shadow:    0 3px 3px rgba(50, 50, 50, 0.2);
   box-shadow:         0 3px 3px rgba(50, 50, 50, 0.2);
   padding: 24px 0 0 0;
+  z-index: 1;
+  position: relative;
 }
 
   /* Standard button style. Should be applied to a <button> element to get full pseudo-styles. */
@@ -2545,7 +2547,7 @@ padding: 10px 0 10px 0;
 
 
 #pucContent {
-  top: 88px; /* Top must be the same as height in #puchHeader */
+  top: 75px; /* Top must be the same as height in #puchHeader */
 }
 
 .tabpanel {
