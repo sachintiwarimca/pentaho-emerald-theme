@@ -202,9 +202,9 @@ margin-left: 0;
   /* Standard button style. Should be applied to a <button> element to get full pseudo-styles. */
 .pentaho-button,
 .IE .pentaho-button:active {
-  background: #999999;
+  background: #3BA749;
   font-size: 12px !important;
-  color: #fefefe;
+  color: #FEFEFE;
   padding: 6px 12px;
   font-family: OpenSansLight,  Helvetica, Arial, sans-serif;
   /* Standard form */
@@ -228,13 +228,13 @@ margin-left: 0;
 .pentaho-button:hover,
 .pentaho-button:active,
 .IE .pentaho-button:focus {
-  color: #fff;
-  background-image: linear-gradient(bottom, #777777 49%, #909090 88%);
-  background-image: -o-linear-gradient(bottom, #777777 49%, #909090 88%);
-  background-image: -moz-linear-gradient(bottom, #777777 49%, #909090 88%);
-  background-image: -webkit-linear-gradient(bottom, #777777 49%, #909090 88%);
-  background-image: -ms-linear-gradient(bottom, #777777 49%, #909090 88%);
-  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.49, #777777), color-stop(0.88, #909090));
+  color: #FEFEFE;
+  background-image: linear-gradient(bottom, #3BA749 49%, #42BA51 88%);
+  background-image: -o-linear-gradient(bottom, #3BA749 49%, #42BA51 88%);
+  background-image: -moz-linear-gradient(bottom, #3BA749 49%, #42BA51 88%);
+  background-image: -webkit-linear-gradient(bottom, #3BA749 49%, #42BA51 88%);
+  background-image: -ms-linear-gradient(bottom, #3BA749 49%, #42BA51 88%);
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.49, #3BA749), color-stop(0.88, #42BA51));
   outline: 0;
 }
 
@@ -901,7 +901,7 @@ border-top: 4px solid transparent;
   /* Standard Form */
   box-shadow: black 0 0 1px, rgba(0, 0, 0, 0.699219) 0 0 1px inset;
 
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#7777777', endColorstr = '#9999999', GradientType = 1);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#7777777', endColorstr = '#999999', GradientType = 1);
 }
 
 .jspHorizontalBar .jspTrack,
@@ -5547,8 +5547,8 @@ treecontrol.tree-classic li .tree-selected {
 
 /*home buttons*/
 #buttonWrapper button.btn.btn-large.btn-block {
-  background: #999999;
-  color: #fefefe !important;
+  background: #3BA749;
+  color: #FEFEFE !important;
   text-shadow: none;
   font-family: OpenSansLight, Helvetica, Arial, sans-serif;
   border: 0;
@@ -5563,13 +5563,13 @@ treecontrol.tree-classic li .tree-selected {
 #buttonWrapper button.btn.btn-large.btn-block:hover,
 #buttonWrapper button.btn.btn-large.btn-block:focus,
 #buttonWrapper button.btn.btn-large.btn-block:active {
-  color: #fff;
-  background-image: linear-gradient(bottom, #777777 49%, #909090 88%);
-  background-image: -o-linear-gradient(bottom, #777777 49%, #909090 88%);
-  background-image: -moz-linear-gradient(bottom, #777777 49%, #909090 88%);
-  background-image: -webkit-linear-gradient(bottom, #777777 49%, #909090 88%);
-  background-image: -ms-linear-gradient(bottom, #777777 49%, #909090 88%);
-  background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0.49, #777777), color-stop(0.88, #909090));
+  color: #FEFEFE;
+  background-image: linear-gradient(bottom, #3BA749 49%, #42BA51 88%);
+  background-image: -o-linear-gradient(bottom, #3BA749 49%, #42BA51 88%);
+  background-image: -moz-linear-gradient(bottom, #3BA749 49%, #42BA51 88%);
+  background-image: -webkit-linear-gradient(bottom, #3BA749 49%, #42BA51 88%);
+  background-image: -ms-linear-gradient(bottom, #3BA749 49%, #42BA51 88%);
+  background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0.49, #3BA749), color-stop(0.88, #42BA51));
   outline: 0;
 }
 
@@ -5743,8 +5743,8 @@ table.datePickerDays .datePickerWeekendLabel {
 }
 
 .bootstrap body .btn {
-  background: #999999;
-  color: #fefefe;
+  background: #3BA749;
+  color: #FEFEFE;
   text-shadow: none;
   font-family: OpenSansLight, Helvetica, Arial, sans-serif;
   border: 0;
@@ -5756,13 +5756,13 @@ table.datePickerDays .datePickerWeekendLabel {
 .bootstrap body .btn:hover,
 .bootstrap body .btn:focus,
 .bootstrap body .btn:active {
-  color: #fff;
-  background-image: linear-gradient(bottom, #777777 49%, #909090 88%);
-  background-image: -o-linear-gradient(bottom, #777777 49%, #909090 88%);
-  background-image: -moz-linear-gradient(bottom, #777777 49%, #909090 88%);
-  background-image: -webkit-linear-gradient(bottom, #777777 49%, #909090 88%);
-  background-image: -ms-linear-gradient(bottom, #777777 49%, #909090 88%);
-  background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0.49, #777777), color-stop(0.88, #909090));
+  color: #FEFEFE;
+  background-image: linear-gradient(bottom, #3BA749 49%, #42BA51 88%);
+  background-image: -o-linear-gradient(bottom, #3BA749 49%, #42BA51 88%);
+  background-image: -moz-linear-gradient(bottom, #3BA749 49%, #42BA51 88%);
+  background-image: -webkit-linear-gradient(bottom, #3BA749 49%, #42BA51 88%);
+  background-image: -ms-linear-gradient(bottom, #3BA749 49%, #42BA51 88%);
+  background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0.49, #3BA749), color-stop(0.88, #42BA51));
   outline: 0;
 }
 
@@ -5778,9 +5778,9 @@ button.btn-large.btn-block {
 }
 
 #getting-started .pentaho-button {
-  background: #999999;
-  background: url("images/open_new_window.png") no-repeat right center, #999999; 
-  color: #fefefe !important;
+  background: #3BA749;
+  background: url("images/open_new_window.png") no-repeat right center, #3BA749; 
+  color: #FEFEFE !important;
   text-shadow: none;
   font-family: OpenSansLight, Helvetica, Arial, sans-serif;
   border: 0;
@@ -5795,13 +5795,13 @@ button.btn-large.btn-block {
 #getting-started .pentaho-button:hover,
 #getting-started .pentaho-button:focus,
 #getting-started .pentaho-button:active {
-  color: #fff;
-  background: url("images/open_new_window.png") no-repeat right center, linear-gradient(bottom, #777777 49%, #909090 88%);
-  background: url("images/open_new_window.png") no-repeat right center, -o-linear-gradient(bottom, #777777 49%, #909090 88%);
-  background: url("images/open_new_window.png") no-repeat right center, -moz-linear-gradient(bottom, #777777 49%, #909090 88%);
-  background: url("images/open_new_window.png") no-repeat right center, -webkit-linear-gradient(bottom, #777777 49%, #909090 88%);
-  background: url("images/open_new_window.png") no-repeat right center, -ms-linear-gradient(bottom, #777777 49%, #909090 88%);
-  background: url("images/open_new_window.png") no-repeat right center, -webkit-gradient( linear, left bottom, left top, color-stop(0.49, #777777), color-stop(0.88, #909090));
+  color: #FEFEFE;
+  background: url("images/open_new_window.png") no-repeat right center, linear-gradient(bottom, #3BA749 49%, #42BA51 88%);
+  background: url("images/open_new_window.png") no-repeat right center, -o-linear-gradient(bottom, #3BA749 49%, #42BA51 88%);
+  background: url("images/open_new_window.png") no-repeat right center, -moz-linear-gradient(bottom, #3BA749 49%, #42BA51 88%);
+  background: url("images/open_new_window.png") no-repeat right center, -webkit-linear-gradient(bottom, #3BA749 49%, #42BA51 88%);
+  background: url("images/open_new_window.png") no-repeat right center, -ms-linear-gradient(bottom, #3BA749 49%, #42BA51 88%);
+  background: url("images/open_new_window.png") no-repeat right center, -webkit-gradient( linear, left bottom, left top, color-stop(0.49, #3BA749), color-stop(0.88, #42BA51));
   outline: 0;
 }
 
