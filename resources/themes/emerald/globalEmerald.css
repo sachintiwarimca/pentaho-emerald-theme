@@ -136,7 +136,6 @@ SELECT,
 .gwt-ListBox,
 .timeZonePicker {
   height: auto;
-  min-height: 29px;
 }
 
 .IE .scheduleEditor SELECT {
@@ -743,11 +742,10 @@ border-top: 4px solid transparent;
 }
 .pentaho-tab-bar {
   background: url('images/bg_admin_tab_panel.png') repeat-x 0 0;
-  min-height: 35px;
 }
  .dialog-content  .pentaho-tab-bar {
   background: url('images/bg_admin_tab_panel.png') repeat-x 0 -3px;
-      height: 32px;
+  height: 32px;
 }
 
 .pentaho-tabBar{
@@ -782,8 +780,6 @@ border-top: 4px solid transparent;
   border-left: 1px solid #cfcfcf;
   height: 100%;
   background-color: #fff;
-  position: relative;
-  top: -3px;
 }
 
 /* Webkit browsers only */
@@ -3189,7 +3185,7 @@ background: transparent;
 }
 .admin-perspective .pentaho-tab-bar {
   background-image:none;
-	height: 40px;
+	height: 37px;
 	z-index: 100;
 	position: relative;
 }
@@ -3275,7 +3271,8 @@ button.adminButton {
 	padding-bottom: 8px;
 }
 .scheduleEditor .timeZonePicker {
-	margin-top: -3px;
+	position: relative;
+  top: -5px;
 }
 .scheduleEditor .gwt-Label {
 	margin-right: 10px;
@@ -3563,7 +3560,7 @@ input[type='radio'] {
 }
 
 .combo-arrow {
-  padding: 8px 5px 6px;
+  padding: 7px 5px 6px;
   background: #d3d3d3;
   cursor: pointer;
   font-size: 0;
@@ -5829,6 +5826,7 @@ textarea#pooling-description {
   padding: 10px;
   resize: none;
   font-family: OpenSansLight, Helvetica, Arial, sans-serif;
+  font-size: 13px;
 }
 
 #pooling-group {
