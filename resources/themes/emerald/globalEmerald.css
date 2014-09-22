@@ -726,7 +726,7 @@ border-top: 4px solid transparent;
 }
 #contentArea .pentaho-tabWidget-selected,
 #editContainer .pentaho-tabWidget-selected{
-  border-top: solid 4px #f217ce;
+  border-top: solid 4px #39a74a;
 }
 
 .IE .pentaho-tabWidget-selected {
@@ -3510,7 +3510,7 @@ input[type='radio'] {
   border-spacing: 2px;
   padding: 8px 10px 10px 10px;
   font-weight: normal;
-  background: #3BA749;
+  background: #999;
   border-right: 1px solid #d3d3d3;
   border-bottom: 1px solid #d3d3d3;
   color: #fff;
@@ -3525,15 +3525,16 @@ input[type='radio'] {
 }
 
 .soria .dojoxGridRowOver .dojoxGridCell {
-  background-color: #dcede7;
-  color:#000;
+  background-color: #c6c6c6;
+  color:#fefefe;
   -moz-transition: none;
   -webkit-transition: none;
 }
 
-.soria .dojoxGridRowSelected {
-  background-color:  #C6C6C6 !important;
-  color: #fff;
+.soria .dojoxGridRowSelected,
+.soria .dojoxGridRowSelected .dojoxGridCell {
+  background-color:  #e9e9e9 !important;
+  color: #333;
   -moz-transition: none;
   -webkit-transition: none;
 }
@@ -3548,7 +3549,11 @@ input[type='radio'] {
 }
 
 .soria .dojoxGridCellOver {
-  border: 1px solid #dcede7;
+  border: 1px solid #c6c6c6;
+}
+
+#licensesGrid .dojoxGridRowOdd {
+  background: #ffffff;
 }
 
   /* ======================= custom drop down control =========================== */
@@ -4971,7 +4976,7 @@ div.listbox .pentaho-listbox {
 
 #launch-widget .selected {
   background-color: #FFF;
-  border-bottom: 2px solid #f217ce;
+  border-bottom: 2px solid #39a74a;
   border-left: 1px solid #cfcfcf;
   border-top: 1px solid #fff;
   border-right: 1px solid #cfcfcf;
@@ -4979,7 +4984,7 @@ div.listbox .pentaho-listbox {
 
 #getting-started .selected {
   background-color: #FFF;
-  border-top: 2px solid #f217ce;
+  border-top: 2px solid #39a74a;
   border-bottom: 1px solid #cfcfcf;
   border-left: 1px solid #fff;
   border-right: 1px solid #cfcfcf;
